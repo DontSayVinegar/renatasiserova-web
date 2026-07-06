@@ -126,14 +126,38 @@ async function main() {
       `${reviews.length} text reviews of ${rawReviews.totalCount} total, avg ${rawReviews.averageRating}`,
   );
 
+  // Ignore volatile timestamps when deciding whether anything really changed —
+  // otherwise every nightly run would commit (and redeploy) for nothing.
+  // Keys are sorted so object key order can never fake a difference.
+  const canonical = (v: unknown): unknown =>
+    Array.isArray(v)
+      ? v.map(canonical)
+      : v && typeof v === 'object'
+        ? Object.fromEntries(
+            Object.keys(v)
+              .sort()
+              .filter((k) => k !== 'syncedAt' && k !== 'lastSeen')
+              .map((k) => [k, canonical((v as Record<string, unknown>)[k])]),
+          )
+        : v;
+  const stable = (file: object) => JSON.stringify(canonical(file));
+  const listingsChanged = stable(listingsFile) !== stable(existing);
+  const reviewsChanged =
+    stable(reviewsFile) !== stable(JSON.parse(readFileSync(REVIEWS_PATH, 'utf8')));
+
   if (dryRun) {
-    log('dry run — nothing written.');
+    log(`dry run — nothing written (listings changed: ${listingsChanged}, reviews changed: ${reviewsChanged}).`);
     return;
   }
 
-  writeFileSync(LISTINGS_PATH, JSON.stringify(listingsFile, null, 2) + '\n');
-  writeFileSync(REVIEWS_PATH, JSON.stringify(reviewsFile, null, 2) + '\n');
-  log(`wrote ${LISTINGS_PATH} and ${REVIEWS_PATH}`);
+  if (!listingsChanged && !reviewsChanged) {
+    log('no substantive changes — files left untouched.');
+    return;
+  }
+
+  if (listingsChanged) writeFileSync(LISTINGS_PATH, JSON.stringify(listingsFile, null, 2) + '\n');
+  if (reviewsChanged) writeFileSync(REVIEWS_PATH, JSON.stringify(reviewsFile, null, 2) + '\n');
+  log(`wrote ${listingsChanged ? LISTINGS_PATH : ''} ${reviewsChanged ? REVIEWS_PATH : ''}`.trim());
 }
 
 main().catch((e) => {
