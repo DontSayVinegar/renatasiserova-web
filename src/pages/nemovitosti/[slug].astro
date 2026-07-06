@@ -1,0 +1,15 @@
+---
+import ListingDetailView from '../../views/ListingDetailView.astro';
+import { publishedListings } from '../../lib/listings';
+
+export function getStaticPaths() {
+  return publishedListings().map((listing) => ({
+    params: { slug: listing.slug },
+    props: { listing },
+  }));
+}
+
+const { listing } = Astro.props;
+---
+
+<ListingDetailView listing={listing} lang="cs" />

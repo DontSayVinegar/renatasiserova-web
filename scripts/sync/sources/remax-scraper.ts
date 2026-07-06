@@ -9,7 +9,7 @@
  * Parsers are pure functions of HTML — tested against saved fixtures
  * in ../fixtures/ so a site redesign shows up as a failing test.
  */
-import { load, type CheerioAPI } from 'cheerio';
+import { load } from 'cheerio';
 import type { ListingSource, RawListing, RawReview, RawReviews } from './types';
 
 const BASE = 'https://www.remax-czech.cz';
@@ -24,7 +24,10 @@ const DELAY_MS = 1500;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export class HttpStatusError extends Error {
-  constructor(public status: number, url: string) {
+  constructor(
+    public status: number,
+    url: string,
+  ) {
     super(`HTTP ${status} for ${url}`);
   }
 }
@@ -99,7 +102,10 @@ export function parseIndex(html: string): IndexCard[] {
       slug: m[2]!,
       url: `${BASE}${url}`,
       titleCs: ($el.attr('data-title') ?? '').trim(),
-      priceText: load(`<i>${$el.attr('data-price') ?? ''}</i>`)('i').text().replace(/\s+/g, ' ').trim(),
+      priceText: load(`<i>${$el.attr('data-price') ?? ''}</i>`)('i')
+        .text()
+        .replace(/\s+/g, ' ')
+        .trim(),
       addressText: ($el.attr('data-display-address') ?? '').replace(/\s+/g, ' ').trim(),
       tags: $el
         .find('[class*="tags__item"]')
@@ -129,7 +135,12 @@ export function parseDetail(html: string): DetailData {
 
   const params: Record<string, string> = {};
   $('.pd-detail-info__row').each((_, el) => {
-    const label = $(el).find('.pd-detail-info__label').text().replace(/\s+/g, ' ').replace(/:$/, '').trim();
+    const label = $(el)
+      .find('.pd-detail-info__label')
+      .text()
+      .replace(/\s+/g, ' ')
+      .replace(/:$/, '')
+      .trim();
     const value = $(el).find('.pd-detail-info__value').text().replace(/\s+/g, ' ').trim();
     if (label) params[label.replace(/:$/, '')] = value;
   });
@@ -173,7 +184,7 @@ export function parseDetail(html: string): DetailData {
   };
 }
 
-export function parseReviews(html: string, sourceUrl = PROFILE_URL): RawReviews {
+export function parseReviews(html: string): RawReviews {
   const $ = load(html);
   const reviews: RawReview[] = [];
   let totalCount = 0;

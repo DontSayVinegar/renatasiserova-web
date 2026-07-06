@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import ListingCard from '../components/ListingCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { soldListings } from '../lib/listings';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+const sold = soldListings();
+---
+
+<Base lang={lang} title={`${t.sold.title}${t.meta.titleSuffix}`} description={t.sold.intro}>
+  <section class="mx-auto max-w-[1200px] px-5 py-14 md:px-8">
+    <h1 class="text-h1 font-display font-extrabold">{t.sold.title}</h1>
+    <p class="mt-4 max-w-xl text-lg text-ink-soft">{t.sold.intro}</p>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {sold.map((l, i) => <ListingCard listing={l} lang={lang} eager={i < 3} />)}
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>

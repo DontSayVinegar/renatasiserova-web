@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import ListingCard from '../components/ListingCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { activeListings } from '../lib/listings';
+import { route } from '../i18n/routes';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+
+const listings = activeListings();
+const sale = listings.filter((l) => l.offerType === 'sale');
+const rent = listings.filter((l) => l.offerType === 'rent');
+---
+
+<Base lang={lang} title={`${t.listings.title}${t.meta.titleSuffix}`} description={t.listings.intro}>
+  <section class="mx-auto max-w-[1200px] px-5 py-14 md:px-8">
+    <h1 class="text-h1 font-display font-extrabold">{t.listings.title}</h1>
+    <p class="mt-4 max-w-xl text-lg text-ink-soft">{t.listings.intro}</p>
+
+    {
+      listings.length === 0 ? (
+        <div class="hairline-t mt-10 pt-10">
+          <p class="max-w-xl text-lg">{t.listings.empty}</p>
+          <a
+            href={route('contact', lang)}
+            class="microlabel mt-6 inline-block bg-signal px-8 py-4 text-paper transition-colors hover:bg-signal-deep"
+          >
+            {t.listings.emptyCta}
+          </a>
+        </div>
+      ) : (
+        <div class="mt-10 space-y-14">
+          {sale.length > 0 && (
+            <div>
+              <h2 class="microlabel hairline-b flex items-baseline justify-between pb-3">
+                <span>{t.listings.tabSale}</span>
+                <span class="text-ink-soft">{sale.length}</span>
+              </h2>
+              <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {sale.map((l, i) => (
+                  <ListingCard listing={l} lang={lang} eager={i < 3} />
+                ))}
+              </div>
+            </div>
+          )}
+          {rent.length > 0 && (
+            <div>
+              <h2 class="microlabel hairline-b flex items-baseline justify-between pb-3">
+                <span>{t.listings.tabRent}</span>
+                <span class="text-ink-soft">{rent.length}</span>
+              </h2>
+              <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {rent.map((l) => (
+                  <ListingCard listing={l} lang={lang} />
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )
+    }
+  </section>
+  <CtaBand lang={lang} />
+</Base>

@@ -1,0 +1,107 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { agent } from '../data/agent';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+---
+
+<Base lang={lang} title={`${t.contact.title}${t.meta.titleSuffix}`} description={t.contact.intro}>
+  <section class="mx-auto max-w-[1200px] px-5 py-14 md:px-8">
+    <h1 class="text-h1 font-display font-extrabold">{t.contact.title}</h1>
+    <p class="mt-4 max-w-xl text-lg text-ink-soft">{t.contact.intro}</p>
+
+    <div class="mt-12 grid gap-14 lg:grid-cols-[1fr_0.8fr] lg:gap-20">
+      <ContactForm lang={lang} />
+
+      <aside class="space-y-10">
+        <div>
+          <h2 class="microlabel text-ink-soft">{t.contact.direct}</h2>
+          <p class="mt-4">
+            <a href={agent.phoneHref} class="link-signal font-display text-3xl font-extrabold">
+              {agent.phone}
+            </a>
+          </p>
+          <p class="mt-2">
+            <a href={`mailto:${agent.email}`} class="link-signal text-lg">{agent.email}</a>
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              href={agent.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="microlabel border border-ink px-5 py-3 transition-colors hover:bg-ink hover:text-paper"
+            >
+              {t.contact.whatsapp} ↗
+            </a>
+            <a
+              href="/renata-siserova.vcf"
+              class="microlabel border border-ink px-5 py-3 transition-colors hover:bg-ink hover:text-paper"
+            >
+              {t.contact.vcard} ↓
+            </a>
+          </div>
+        </div>
+
+        <div class="hairline-t pt-8">
+          <h2 class="microlabel text-ink-soft">{t.contact.officeTitle}</h2>
+          <p class="mt-4">
+            <strong class="font-display text-xl font-bold">{agent.office.name}</strong><br />
+            {agent.office.street}<br />
+            {agent.office.city}
+          </p>
+          <!-- decorative abstract map (no third-party embed → no cookies) -->
+          <a
+            href={agent.office.mapyCzUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group mt-5 block border border-ink"
+            aria-label={`${t.contact.officeMap} (${t.a11y.openInNewTab})`}
+          >
+            <svg viewBox="0 0 400 200" class="block h-auto w-full bg-mist" aria-hidden="true">
+              <g stroke="#111110" stroke-opacity="0.18" stroke-width="1.5">
+                <path d="M0 60 L400 40"></path><path d="M0 120 L400 110"></path><path
+                  d="M0 170 L400 185"></path>
+                <path d="M70 0 L90 200"></path><path d="M180 0 L170 200"></path><path
+                  d="M290 0 L310 200"></path>
+                <path d="M0 20 L400 5"></path>
+              </g>
+              <path
+                d="M0 95 C 120 75, 260 125, 400 88"
+                fill="none"
+                stroke="#111110"
+                stroke-opacity="0.35"
+                stroke-width="7"></path>
+              <circle cx="176" cy="103" r="7" fill="#e8340c"></circle>
+              <circle
+                cx="176"
+                cy="103"
+                r="13"
+                fill="none"
+                stroke="#e8340c"
+                stroke-width="2"
+                class="transition-transform duration-300 origin-[176px_103px] group-hover:scale-125"
+              ></circle>
+            </svg>
+            <span class="microlabel flex items-center justify-between px-4 py-3">
+              {t.contact.officeMap}
+              <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="hairline-t pt-8 text-sm text-ink-soft">
+          <p>
+            {agent.name} · {t.footer.ic}: {agent.ic}<br />
+            {t.footer.legal}
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>

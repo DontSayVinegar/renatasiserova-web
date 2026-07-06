@@ -64,9 +64,7 @@ export function listingJsonLd(listing: Listing, lang: Lang, url: string, imageUr
           }
         : {}),
       availability:
-        listing.status === 'active'
-          ? 'https://schema.org/InStock'
-          : 'https://schema.org/SoldOut',
+        listing.status === 'active' ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut',
       offeredBy: { '@id': `${SITE}/#agent` },
     },
   };

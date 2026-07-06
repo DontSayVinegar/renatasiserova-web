@@ -1,0 +1,98 @@
+---
+import { Image } from 'astro:assets';
+import { coverImage } from '../lib/listing-images';
+import { listingUrl } from '../i18n/routes';
+import { useT, formatPrice, type Lang } from '../i18n';
+import type { Listing } from '../lib/listings';
+
+interface Props {
+  listing: Listing;
+  lang: Lang;
+  /** eager-load the image (above the fold) */
+  eager?: boolean;
+}
+const { listing, lang, eager = false } = Astro.props;
+const t = useT(lang);
+
+const title = listing.title[lang];
+const commaIdx = title.lastIndexOf(',');
+const what = commaIdx === -1 ? title : title.slice(0, commaIdx).trim();
+const where = listing.location.municipality.replace(
+  /\bPraha\b/g,
+  lang === 'en' ? 'Prague' : 'Praha',
+);
+
+const cover = coverImage(listing.images);
+const isDone = listing.status === 'sold' || listing.status === 'rented';
+const statusLabel =
+  listing.status === 'sold'
+    ? t.listings.sold
+    : listing.status === 'rented'
+      ? t.listings.rented
+      : listing.status === 'reserved'
+        ? t.listings.reserved
+        : null;
+
+const priceLabel = listing.price.amount
+  ? formatPrice(listing.price.amount, lang) +
+    (listing.price.period === 'month' ? ` ${t.listings.perMonth}` : '')
+  : isDone
+    ? null
+    : t.listings.priceOnRequest;
+
+const areaLabel = listing.propertyType === 'land' ? listing.landAreaM2 : listing.areaM2;
+const metaBits = [
+  listing.offerType === 'sale' ? t.listings.sale : t.listings.rent,
+  listing.disposition,
+  areaLabel
+    ? `${new Intl.NumberFormat(lang === 'cs' ? 'cs-CZ' : 'en-GB').format(areaLabel)} m²`
+    : null,
+].filter(Boolean);
+---
+
+<article class="group relative border border-ink bg-paper">
+  <a href={listingUrl(listing.slug, lang)} class="block focus-visible:outline-offset-[-2px]">
+    <div class="relative aspect-[4/3] overflow-hidden border-b border-ink">
+      {
+        cover ? (
+          <Image
+            src={cover()}
+            alt={title}
+            widths={[400, 640, 880]}
+            sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
+            class:list={[
+              'h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]',
+              isDone && 'grayscale-[0.4]',
+            ]}
+            loading={eager ? 'eager' : 'lazy'}
+          />
+        ) : (
+          <div class="flex h-full w-full items-center justify-center bg-mist font-display text-4xl font-extrabold text-ink/20">
+            R.
+          </div>
+        )
+      }
+      {
+        statusLabel && (
+          <span class="microlabel absolute top-0 left-0 bg-signal px-3 py-1.5 text-paper">
+            {statusLabel}
+          </span>
+        )
+      }
+    </div>
+    <div class="p-5">
+      <p class="microlabel text-ink-soft">{metaBits.join(' · ')}</p>
+      <h3 class="mt-2 font-display text-xl leading-snug font-bold">
+        <span
+          class="bg-gradient-to-r from-signal to-signal bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 group-hover:bg-[length:100%_2px]"
+        >
+          {where}
+        </span>
+      </h3>
+      <p class="mt-1 line-clamp-1 text-[0.95rem] text-ink-soft">{what}</p>
+      <p class="mt-3 font-display text-lg font-bold">
+        {priceLabel ?? <span class="text-signal">{statusLabel}</span>}
+      </p>
+    </div>
+  </a>
+</article>

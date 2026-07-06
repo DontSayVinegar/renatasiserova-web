@@ -70,8 +70,7 @@ function parseLocation(addressText: string, municipality: string) {
     .filter(Boolean);
   const region = parts.at(-1) ?? '';
   const mid = parts.slice(0, -1).filter((p) => p !== region && !/\d/.test(p));
-  const district =
-    mid.find((p) => p !== municipality && !municipality.includes(p)) ?? null;
+  const district = mid.find((p) => p !== municipality && !municipality.includes(p)) ?? null;
   return { municipality, district, region };
 }
 
@@ -82,8 +81,10 @@ export function normalize(raw: RawListing): NormalizedListing {
   const municipality = municipalityFromTitle(raw.titleCs);
 
   const titleArea = parseAreaM2(raw.titleCs);
-  const usable = parseAreaM2(raw.params['Užitná plocha']) ?? parseAreaM2(raw.params['Celková plocha']);
-  const plot = parseAreaM2(raw.params['Plocha parcely']) ?? parseAreaM2(raw.params['Plocha pozemku']);
+  const usable =
+    parseAreaM2(raw.params['Užitná plocha']) ?? parseAreaM2(raw.params['Celková plocha']);
+  const plot =
+    parseAreaM2(raw.params['Plocha parcely']) ?? parseAreaM2(raw.params['Plocha pozemku']);
 
   const areaM2 = type === 'land' ? null : (usable ?? titleArea);
   const landAreaM2 = type === 'land' ? (plot ?? titleArea) : plot;

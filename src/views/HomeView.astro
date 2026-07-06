@@ -1,0 +1,210 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import SectionHead from '../components/SectionHead.astro';
+import ListingCard from '../components/ListingCard.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { agent, yearsInRealEstate } from '../data/agent';
+import { activeListings, soldListings, allReviews, reviewAggregate } from '../lib/listings';
+import { route } from '../i18n/routes';
+import { useT, type Lang } from '../i18n';
+import portrait from '../assets/portraits/renata-window.jpg';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+
+const featured = activeListings().slice(0, 3);
+const sold = soldListings();
+const agg = reviewAggregate();
+const years = yearsInRealEstate();
+
+// three punchy reviews for the highlight band (not too short, not too long)
+const highlights = allReviews()
+  .filter((r) => r.text.cs.length > 40 && r.text.cs.length < 240)
+  .slice(0, 3);
+
+const stats = [
+  { value: String(years), label: t.trust.years },
+  { value: String(agent.marketingYears), label: t.trust.marketing },
+  { value: `${agg.count}+`, label: t.trust.reviews },
+  { value: '100%', label: t.trust.club },
+];
+
+const tickerItems = sold.map((l) => ({
+  where: l.location.municipality.replace(/\bPraha\b/g, lang === 'en' ? 'Prague' : 'Praha'),
+  what: l.status === 'sold' ? t.listings.sold : t.listings.rented,
+}));
+---
+
+<Base lang={lang} title={t.meta.siteName} description={t.meta.description}>
+  <!-- HERO -->
+  <section class="mx-auto max-w-[1200px] px-5 md:px-8">
+    <div class="grid items-stretch gap-10 py-12 md:py-16 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+      <div class="flex flex-col justify-center">
+        <p class="microlabel text-signal">{t.hero.kicker}</p>
+        <h1 class="mt-5 text-display font-display font-extrabold">
+          {t.hero.heading}
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft">{t.hero.sub}</p>
+        <div class="mt-9 flex flex-wrap gap-4">
+          <a
+            href={route('contact', lang)}
+            class="microlabel inline-block bg-signal px-8 py-4 text-paper transition-colors hover:bg-signal-deep"
+          >
+            {t.hero.cta}
+          </a>
+          <a
+            href={route('listings', lang)}
+            class="microlabel inline-block border border-ink px-8 py-4 transition-colors hover:bg-ink hover:text-paper"
+          >
+            {t.hero.ctaSecondary}
+          </a>
+        </div>
+        <p class="mt-10 max-w-md border-l-2 border-signal pl-5 font-display text-lg font-medium">
+          „{agent.motto[lang].replace(/\.$/, '')}“
+        </p>
+      </div>
+      <div class="relative">
+        <div
+          class="absolute -top-2 -right-2 h-16 w-16 border-t-2 border-r-2 border-signal"
+          aria-hidden="true"
+        >
+        </div>
+        <Image
+          src={portrait}
+          alt={`${agent.name} — ${agent.role[lang]}`}
+          widths={[480, 760, 1080]}
+          sizes="(min-width: 1024px) 540px, 100vw"
+          class="h-full max-h-[720px] w-full border border-ink object-cover object-top"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="hairline-t hairline-b">
+    <div class="mx-auto grid max-w-[1200px] grid-cols-2 md:grid-cols-4">
+      {
+        stats.map((s, i) => (
+          <div
+            class:list={[
+              'px-5 py-8 text-center md:py-10',
+              i > 0 && 'border-l border-ink/15',
+              i === 2 && 'max-md:border-l-0 max-md:border-t max-md:border-ink/15',
+              i === 3 && 'max-md:border-t max-md:border-ink/15',
+            ]}
+          >
+            <p class="font-display text-4xl font-extrabold md:text-5xl">{s.value}</p>
+            <p class="microlabel mt-2 text-ink-soft">{s.label}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- FEATURED LISTINGS -->
+  <section class="mx-auto max-w-[1200px] px-5 py-20 md:px-8">
+    <SectionHead
+      num="01"
+      title={t.home.featuredTitle}
+      linkHref={route('listings', lang)}
+      linkLabel={t.home.featuredAll}
+    />
+    {
+      featured.length > 0 ? (
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {featured.map((l) => (
+            <ListingCard listing={l} lang={lang} />
+          ))}
+        </div>
+      ) : (
+        <p class="max-w-xl text-lg text-ink-soft">{t.listings.empty}</p>
+      )
+    }
+  </section>
+
+  <!-- SOLD TICKER -->
+  {
+    tickerItems.length > 0 && (
+      <div class="overflow-hidden bg-signal py-3 text-paper" aria-label={t.home.soldTicker}>
+        <div class="animate-ticker flex w-max whitespace-nowrap">
+          {[0, 1].map((copy) => (
+            <div class="flex" aria-hidden={copy === 1 ? 'true' : undefined}>
+              {tickerItems.map((item) => (
+                <span class="microlabel mx-6 flex items-center gap-6">
+                  <span aria-hidden="true">✱</span>
+                  {item.what}: {item.where}
+                </span>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  <!-- REVIEWS -->
+  <section class="bg-ink py-20 text-paper">
+    <div class="mx-auto max-w-[1200px] px-5 md:px-8">
+      <SectionHead
+        num="02"
+        title={t.home.reviewsTitle}
+        linkHref={route('reviews', lang)}
+        linkLabel={t.home.reviewsAll}
+        invert
+      />
+      <div class="grid gap-6 md:grid-cols-3">
+        {highlights.map((r) => <ReviewCard review={r} lang={lang} invert />)}
+      </div>
+      <p class="microlabel mt-8 text-paper/50">
+        {agg.count}
+        {t.reviews.aggregate} ·{' '}
+        <a
+          href={agent.remax.profileUrl}
+          class="link-signal"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t.reviews.source}
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- PROCESS TEASER -->
+  <section class="mx-auto max-w-[1200px] px-5 py-20 md:px-8">
+    <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+      <div>
+        <SectionHead num="03" title={t.home.processTitle} />
+        <p class="max-w-md text-lg leading-relaxed text-ink-soft">{t.home.processTeaser}</p>
+        <a
+          href={route('process', lang)}
+          class="microlabel mt-8 inline-block border border-ink px-8 py-4 transition-colors hover:bg-ink hover:text-paper"
+        >
+          {t.home.processCta}
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+      <ol class="self-center">
+        {
+          t.process.steps.map((step, i) => (
+            <li class="hairline-t flex items-baseline gap-6 py-5 last:border-b last:border-ink">
+              <span class="font-display text-2xl font-extrabold text-signal" aria-hidden="true">
+                0{i + 1}
+              </span>
+              <span class="font-display text-xl font-bold">{step.title}</span>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <CtaBand lang={lang} />
+</Base>

@@ -30,8 +30,10 @@
   "devDependencies": {
     "prettier": "^3.9.4",
     "prettier-plugin-astro": "^0.14.1",
+    "puppeteer-core": "^25.3.0",
     "tsx": "^4.23.0",
     "typescript": "^5.9.3",
-    "vitest": "^3.2.7"
+    "vitest": "^3.2.7",
+    "wrangler": "^3.114.17"
   }
 }

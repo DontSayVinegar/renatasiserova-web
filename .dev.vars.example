@@ -1,0 +1,6 @@
+# Local secrets for `npx wrangler pages dev dist` (contact form testing).
+# Copy to .dev.vars (gitignored) and fill in real values.
+RESEND_API_KEY=re_xxxxxxxxxxxx
+TURNSTILE_SECRET_KEY=0x_xxxxxxxxxxxx
+# Optional: send test e-mails to yourself instead of Renata
+CONTACT_TO=richardsiser@gmail.com

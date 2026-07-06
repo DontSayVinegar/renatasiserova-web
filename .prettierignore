@@ -1,0 +1,7 @@
+# saved live HTML — must stay byte-exact for parser tests
+scripts/sync/fixtures/
+# machine-written data
+src/data/listings.json
+src/data/reviews.json
+src/data/translations-cache.json
+dist/

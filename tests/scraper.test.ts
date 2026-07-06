@@ -70,7 +70,9 @@ describe('parseDetail', () => {
 
   it('extracts full-size gallery images without thumbnails', () => {
     expect(active.imageUrls.length).toBeGreaterThan(5);
-    expect(active.imageUrls[0]).toMatch(/^https:\/\/mlsf\.remax-czech\.cz\/data\/\/zs\/441842\/\d+\.jpg$/);
+    expect(active.imageUrls[0]).toMatch(
+      /^https:\/\/mlsf\.remax-czech\.cz\/data\/\/zs\/441842\/\d+\.jpg$/,
+    );
     expect(active.imageUrls.every((u) => !u.includes('_th'))).toBe(true);
   });
 
@@ -148,13 +150,27 @@ describe('normalize', () => {
 
   it('normalizes a rented apartment and land', () => {
     const rented = cards.find((c) => c.id === '440743')!;
-    const rn = normalize({ ...raw, titleCs: rented.titleCs, priceText: rented.priceText, tags: rented.tags, addressText: rented.addressText, params: {} });
+    const rn = normalize({
+      ...raw,
+      titleCs: rented.titleCs,
+      priceText: rented.priceText,
+      tags: rented.tags,
+      addressText: rented.addressText,
+      params: {},
+    });
     expect(rn.offerType).toBe('rent');
     expect(rn.status).toBe('rented');
     expect(rn.price.period).toBe('month');
 
     const land = cards.find((c) => c.id === '425734')!;
-    const ln = normalize({ ...raw, titleCs: land.titleCs, priceText: land.priceText, tags: land.tags, addressText: land.addressText, params: {} });
+    const ln = normalize({
+      ...raw,
+      titleCs: land.titleCs,
+      priceText: land.priceText,
+      tags: land.tags,
+      addressText: land.addressText,
+      params: {},
+    });
     expect(ln.propertyType).toBe('land');
     expect(ln.areaM2).toBeNull();
     expect(ln.landAreaM2).toBe(4000);

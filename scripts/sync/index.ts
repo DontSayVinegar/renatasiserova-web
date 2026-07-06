@@ -39,7 +39,9 @@ async function main() {
   const rawReviews = await source.fetchReviews();
 
   if (rawListings.length === 0) {
-    throw new Error('Scrape returned 0 listings — refusing to overwrite data (site keeps last-good).');
+    throw new Error(
+      'Scrape returned 0 listings — refusing to overwrite data (site keeps last-good).',
+    );
   }
 
   const translator = createTranslator(log);

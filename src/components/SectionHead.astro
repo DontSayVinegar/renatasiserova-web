@@ -1,0 +1,28 @@
+---
+/** Editorial section header: red index numeral, display title, optional link. */
+interface Props {
+  num: string;
+  title: string;
+  linkHref?: string;
+  linkLabel?: string;
+  invert?: boolean;
+}
+const { num, title, linkHref, linkLabel, invert = false } = Astro.props;
+---
+
+<div class="mb-10 flex flex-wrap items-end justify-between gap-4">
+  <h2 class="flex items-baseline gap-4 text-h2">
+    <span class="font-display text-xl font-bold text-signal" aria-hidden="true">{num}</span>
+    {title}
+  </h2>
+  {
+    linkHref && (
+      <a
+        href={linkHref}
+        class:list={['link-signal microlabel pb-1', invert ? 'text-paper/80' : 'text-ink']}
+      >
+        {linkLabel} <span aria-hidden="true">→</span>
+      </a>
+    )
+  }
+</div>

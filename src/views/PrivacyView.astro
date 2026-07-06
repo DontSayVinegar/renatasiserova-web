@@ -1,0 +1,162 @@
+---
+import Base from '../layouts/Base.astro';
+import { agent } from '../data/agent';
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+
+const title = lang === 'cs' ? 'Ochrana osobních údajů' : 'Privacy policy';
+const description =
+  lang === 'cs'
+    ? 'Zásady zpracování osobních údajů na webu renatasiserova.cz.'
+    : 'Privacy policy of renatasiserova.cz.';
+---
+
+<Base lang={lang} title={`${title} | Renata Šiserová`} description={description}>
+  <section class="mx-auto max-w-[760px] px-5 py-14 md:px-8">
+    <h1 class="text-h1 font-display font-extrabold">{title}</h1>
+
+    {
+      lang === 'cs' ? (
+        <div class="prose-editorial mt-10 space-y-6 leading-relaxed">
+          <h2 class="font-display text-2xl font-bold">1. Správce osobních údajů</h2>
+          <p>
+            Správcem osobních údajů je <strong>{agent.name}</strong>, IČ: {agent.ic}, realitní
+            makléřka spolupracující s kanceláří {agent.office.name}, {agent.office.street},{' '}
+            {agent.office.city}, zapsaná v živnostenském rejstříku. Kontakt:{' '}
+            <a href={`mailto:${agent.email}`} class="link-signal">
+              {agent.email}
+            </a>
+            , tel. {agent.phone}.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">2. Jaké údaje zpracovávám a proč</h2>
+          <p>
+            <strong>Kontaktní formulář:</strong> jméno, e-mail, volitelně telefon a obsah zprávy.
+            Právním základem je provedení opatření před uzavřením smlouvy na vaši žádost (čl. 6
+            odst. 1 písm. b GDPR) a oprávněný zájem na navazující komunikaci (čl. 6 odst. 1 písm. f
+            GDPR). Údaje slouží výhradně k vyřízení vaší poptávky.
+          </p>
+          <p>
+            <strong>Reference:</strong> na webu zveřejňuji hodnocení klientů převzatá doslovně z
+            mého veřejného profilu na remax-czech.cz (bez jmen — zdroj je uveden u každé sekce).
+            Pokud jste autorem hodnocení a přejete si jeho odstranění z tohoto webu, napište mi.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">3. Kdo údaje zpracovává</h2>
+          <p>
+            Zpráva z formuláře není nikde ukládána — je předána přímo do mé e-mailové schránky. Na
+            doručení se podílejí tito zpracovatelé: <strong>Cloudflare, Inc.</strong>
+            (hosting webu a ochrana formuláře proti spamu — Turnstile),{' '}
+            <strong>Resend, Inc.</strong> (odeslání e-mailu) a poskytovatel e-mailové schránky
+            RE/MAX Česká republika. Předání do třetích zemí je zajištěno standardními smluvními
+            doložkami EU. Pro strojový překlad veřejných textů webu je používán{' '}
+            <strong>DeepL SE</strong> (nezpracovává údaje z formuláře).
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">4. Doba uchování</h2>
+          <p>
+            E-maily z formuláře uchovávám po dobu vyřízení poptávky a navazující komunikace, nejdéle
+            3 roky, poté jsou smazány.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">5. Cookies</h2>
+          <p>
+            <strong>Tento web nepoužívá cookies</strong> ani jiné sledovací technologie ukládané do
+            vašeho zařízení. Měření návštěvnosti probíhá bez cookies (Cloudflare Web Analytics).
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">6. Vaše práva</h2>
+          <p>
+            Máte právo na přístup ke svým údajům, jejich opravu či výmaz, omezení zpracování,
+            přenositelnost a právo vznést námitku. Uplatníte je e-mailem na{' '}
+            <a href={`mailto:${agent.email}`} class="link-signal">
+              {agent.email}
+            </a>
+            . Máte rovněž právo podat stížnost u Úřadu pro ochranu osobních údajů (
+            <a
+              href="https://uoou.gov.cz"
+              class="link-signal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              uoou.gov.cz
+            </a>
+            ).
+          </p>
+        </div>
+      ) : (
+        <div class="prose-editorial mt-10 space-y-6 leading-relaxed">
+          <h2 class="font-display text-2xl font-bold">1. Data controller</h2>
+          <p>
+            The data controller is <strong>{agent.name}</strong>, Company ID (IČ): {agent.ic}, a
+            real estate agent working with {agent.office.name}, {agent.office.street},{' '}
+            {agent.office.city}, Czech Republic, registered in the Czech Trade Licensing Register.
+            Contact:{' '}
+            <a href={`mailto:${agent.email}`} class="link-signal">
+              {agent.email}
+            </a>
+            , tel. {agent.phone}.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">2. What data is processed and why</h2>
+          <p>
+            <strong>Contact form:</strong> name, e-mail, optionally phone and your message. The
+            legal basis is taking steps prior to entering into a contract at your request (Art.
+            6(1)(b) GDPR) and legitimate interest in follow-up communication (Art. 6(1)(f) GDPR).
+            The data is used solely to handle your enquiry.
+          </p>
+          <p>
+            <strong>Reviews:</strong> client reviews shown on this site are reproduced verbatim from
+            my public profile on remax-czech.cz (published there without names; the source is
+            linked). If you authored a review and want it removed from this site, just write to me.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">3. Processors</h2>
+          <p>
+            Form submissions are not stored anywhere — they are delivered straight to my mailbox.
+            Delivery involves these processors: <strong>Cloudflare, Inc.</strong> (website hosting
+            and spam protection — Turnstile), <strong>Resend, Inc.</strong> (e-mail delivery) and
+            the RE/MAX Czech Republic mailbox provider. Transfers outside the EU are covered by EU
+            Standard Contractual Clauses. <strong>DeepL SE</strong> is used for machine translation
+            of public website texts only (it never processes form data).
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">4. Retention</h2>
+          <p>
+            Form e-mails are kept for the time needed to handle the enquiry and follow-up
+            communication, at most 3 years, then deleted.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">5. Cookies</h2>
+          <p>
+            <strong>This website uses no cookies</strong> or any other tracking technology stored on
+            your device. Traffic is measured without cookies (Cloudflare Web Analytics).
+          </p>
+
+          <h2 class="font-display text-2xl font-bold">6. Your rights</h2>
+          <p>
+            You have the right of access, rectification, erasure, restriction of processing, data
+            portability and the right to object. Exercise them by e-mail at{' '}
+            <a href={`mailto:${agent.email}`} class="link-signal">
+              {agent.email}
+            </a>
+            . You may also lodge a complaint with the Czech Data Protection Authority (
+            <a
+              href="https://uoou.gov.cz"
+              class="link-signal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              uoou.gov.cz
+            </a>
+            ).
+          </p>
+        </div>
+      )
+    }
+  </section>
+</Base>

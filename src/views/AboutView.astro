@@ -1,0 +1,86 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { agent } from '../data/agent';
+import { useT, type Lang } from '../i18n';
+import portraitStanding from '../assets/portraits/renata-standing.jpg';
+import portraitSofa from '../assets/portraits/renata-sofa.jpg';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+---
+
+<Base
+  lang={lang}
+  title={`${t.about.title}${t.meta.titleSuffix}`}
+  description={t.about.story[0]!.slice(0, 155)}
+>
+  <section class="mx-auto max-w-[1200px] px-5 py-14 md:px-8">
+    <p class="microlabel text-signal">{t.about.kicker}</p>
+    <h1 class="mt-4 text-h1 font-display font-extrabold">{t.about.title}</h1>
+
+    <div class="mt-12 grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:gap-20">
+      <div class="space-y-6 text-lg leading-relaxed">
+        {t.about.story.map((p) => <p set:html={p} />)}
+
+        <div class="hairline-t pt-8">
+          <h2 class="microlabel text-ink-soft">{t.about.certsTitle}</h2>
+          <ul class="mt-4 space-y-3">
+            {
+              agent.certifications.map((c) => (
+                <li class="flex items-baseline gap-3">
+                  <span class="text-signal" aria-hidden="true">
+                    ✱
+                  </span>
+                  <span>
+                    <strong class="font-display font-bold">{c[lang]}</strong>
+                    <span class="text-ink-soft"> — {c.note[lang]}</span>
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        <div class="hairline-t pt-8">
+          <h2 class="microlabel text-ink-soft">{t.about.officeTitle}</h2>
+          <p class="mt-4">
+            <strong class="font-display font-bold">{agent.office.name}</strong><br />
+            {agent.office.street}, {agent.office.city}
+          </p>
+        </div>
+      </div>
+
+      <div class="space-y-6">
+        <div class="relative">
+          <div
+            class="absolute -top-2 -left-2 h-16 w-16 border-t-2 border-l-2 border-signal"
+            aria-hidden="true"
+          >
+          </div>
+          <Image
+            src={portraitStanding}
+            alt={`${agent.name} — ${agent.role[lang]}`}
+            widths={[420, 720, 1000]}
+            sizes="(min-width: 1024px) 430px, 100vw"
+            class="w-full border border-ink object-cover"
+            loading="eager"
+          />
+        </div>
+        <Image
+          src={portraitSofa}
+          alt={agent.name}
+          widths={[420, 720, 1000]}
+          sizes="(min-width: 1024px) 430px, 100vw"
+          class="w-full border border-ink object-cover"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+  <CtaBand lang={lang} buttonLabel={t.about.cta} />
+</Base>

@@ -1,0 +1,34 @@
+---
+import { agent } from '../data/agent';
+import { route } from '../i18n/routes';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  text?: string;
+  buttonLabel?: string;
+}
+const { lang, title, text, buttonLabel } = Astro.props;
+const t = useT(lang);
+---
+
+<section class="hairline-t">
+  <div class="mx-auto max-w-[1200px] px-5 py-20 text-center md:px-8 md:py-28">
+    <h2 class="text-h1 font-display font-extrabold">
+      {title ?? t.home.ctaTitle}
+    </h2>
+    <p class="mx-auto mt-5 max-w-xl text-lg text-ink-soft">{text ?? t.home.ctaText}</p>
+    <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
+      <a
+        href={route('contact', lang)}
+        class="microlabel inline-block bg-signal px-8 py-4 text-paper transition-colors hover:bg-signal-deep"
+      >
+        {buttonLabel ?? t.home.ctaButton}
+      </a>
+      <a href={agent.phoneHref} class="link-signal font-display text-xl font-bold">
+        {agent.phone}
+      </a>
+    </div>
+  </div>
+</section>

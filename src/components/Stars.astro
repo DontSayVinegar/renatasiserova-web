@@ -1,0 +1,15 @@
+---
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  rating: number;
+  lang: Lang;
+}
+const { rating, lang } = Astro.props;
+const t = useT(lang);
+const full = Math.round(rating);
+---
+
+<span class="text-signal tracking-[0.15em]" role="img" aria-label={`${rating} ${t.reviews.stars}`}
+  >{'★'.repeat(full)}{'☆'.repeat(5 - full)}</span
+>

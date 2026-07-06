@@ -1,0 +1,29 @@
+---
+import Stars from './Stars.astro';
+import type { Review } from '../lib/listings';
+import type { Lang } from '../i18n';
+
+interface Props {
+  review: Review;
+  lang: Lang;
+  invert?: boolean;
+}
+const { review, lang, invert = false } = Astro.props;
+const text = (lang === 'en' && review.text.en) || review.text.cs;
+---
+
+<figure
+  class:list={[
+    'flex h-full flex-col justify-between border p-6',
+    invert ? 'border-paper/25' : 'border-ink',
+  ]}
+>
+  <blockquote class:list={['text-[1.02rem] leading-relaxed', invert && 'text-paper/90']}>
+    <span class="font-display text-2xl font-extrabold text-signal" aria-hidden="true">„</span>{
+      text
+    }<span class="font-display text-2xl font-extrabold text-signal" aria-hidden="true">“</span>
+  </blockquote>
+  <figcaption class="mt-4">
+    <Stars rating={review.rating} lang={lang} />
+  </figcaption>
+</figure>

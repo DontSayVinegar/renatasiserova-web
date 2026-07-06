@@ -1,0 +1,156 @@
+---
+import { route } from '../i18n/routes';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+const f = t.contact.form;
+
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined;
+---
+
+<form
+  id="contact-form"
+  method="post"
+  action="/api/contact"
+  class="max-w-xl"
+  novalidate
+  data-success={f.success}
+  data-error={f.error}
+  data-sending={f.sending}
+  data-submit={f.submit}
+>
+  <input type="hidden" name="lang" value={lang} />
+  <input type="hidden" name="subject" value={t.contact.subject} />
+  <!-- honeypot: humans never see or fill this -->
+  <p class="sr-only" aria-hidden="true">
+    <label>
+      Website
+      <input type="text" name="website" tabindex="-1" autocomplete="off" />
+    </label>
+  </p>
+
+  <div class="space-y-5">
+    <div>
+      <label for="cf-name" class="microlabel">{f.name} *</label>
+      <input
+        type="text"
+        id="cf-name"
+        name="name"
+        required
+        autocomplete="name"
+        class="mt-2 w-full border border-ink bg-paper px-4 py-3 focus:border-signal focus:outline-none"
+      />
+    </div>
+    <div class="grid gap-5 sm:grid-cols-2">
+      <div>
+        <label for="cf-email" class="microlabel">{f.email} *</label>
+        <input
+          type="email"
+          id="cf-email"
+          name="email"
+          required
+          autocomplete="email"
+          class="mt-2 w-full border border-ink bg-paper px-4 py-3 focus:border-signal focus:outline-none"
+        />
+      </div>
+      <div>
+        <label for="cf-phone" class="microlabel">{f.phone}</label>
+        <input
+          type="tel"
+          id="cf-phone"
+          name="phone"
+          autocomplete="tel"
+          class="mt-2 w-full border border-ink bg-paper px-4 py-3 focus:border-signal focus:outline-none"
+        />
+      </div>
+    </div>
+    <div>
+      <label for="cf-message" class="microlabel">{f.message} *</label>
+      <textarea
+        id="cf-message"
+        name="message"
+        rows="6"
+        required
+        placeholder={f.messagePlaceholder}
+        class="mt-2 w-full border border-ink bg-paper px-4 py-3 placeholder:text-ink-soft/60 focus:border-signal focus:outline-none"
+      ></textarea>
+    </div>
+
+    {
+      turnstileSiteKey && (
+        <>
+          <div class="cf-turnstile" data-sitekey={turnstileSiteKey} data-language={lang} />
+          <script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+            async
+            defer
+            is:inline
+          />
+        </>
+      )
+    }
+
+    <p class="text-xs leading-relaxed text-ink-soft">
+      {f.gdpr}{' '}
+      <a href={route('privacy', lang)} class="link-signal">{f.gdprLink}</a>.
+    </p>
+
+    <button
+      type="submit"
+      class="microlabel bg-signal px-8 py-4 text-paper transition-colors hover:bg-signal-deep disabled:opacity-50"
+    >
+      {f.submit}
+    </button>
+
+    <p id="cf-status" class="hidden border-l-2 border-signal bg-mist p-4 font-medium" role="status">
+    </p>
+  </div>
+</form>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  if (form) {
+    const status = document.getElementById('cf-status')!;
+    const button = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+
+    // prefill message with listing ref from ?ref= (linked from listing detail pages)
+    const ref = new URLSearchParams(location.search).get('ref');
+    if (ref) {
+      const message = form.querySelector('#cf-message') as HTMLTextAreaElement;
+      const subject = form.querySelector('input[name="subject"]') as HTMLInputElement;
+      subject.value = `${subject.value} — ${ref}`;
+      if (!message.value) message.value = `Ref. ${ref}: `;
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+      button.disabled = true;
+      button.textContent = form.dataset.sending || '…';
+      status.classList.add('hidden');
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' },
+        });
+        if (!res.ok) throw new Error(String(res.status));
+        form.reset();
+        status.textContent = form.dataset.success || 'OK';
+        status.classList.remove('hidden');
+        // reset the Turnstile widget for a potential second message
+        (window as any).turnstile?.reset?.();
+      } catch {
+        status.textContent = form.dataset.error || 'Error';
+        status.classList.remove('hidden');
+      } finally {
+        button.disabled = false;
+        button.textContent = form.dataset.submit || 'Send';
+      }
+    });
+  }
+</script>

@@ -15,8 +15,9 @@
   --color-ink: #111110;
   --color-ink-soft: #6b6862;
   --color-mist: #f4f3f0;
-  --color-signal: #e8340c;
-  --color-signal-deep: #bf2a09;
+  /* vermillion — #dc2f0a passes WCAG AA (4.7:1) on white for small text */
+  --color-signal: #dc2f0a;
+  --color-signal-deep: #b52508;
 
   /* type */
   --font-display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', sans-serif;

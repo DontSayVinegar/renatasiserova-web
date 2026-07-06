@@ -197,6 +197,6 @@ export const cs = {
     skipToContent: 'Přeskočit na obsah',
     openInNewTab: 'otevře se v novém okně',
   },
-} as const;
+};
 
 export type Dictionary = typeof cs;

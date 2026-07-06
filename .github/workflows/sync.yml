@@ -1,0 +1,54 @@
+# Nightly sync of listings + reviews from remax-czech.cz.
+#
+# - Runs at 02:30 UTC (03:30/04:30 Prague time), or manually from the
+#   Actions tab ("Run workflow").
+# - Commits only when data actually changed; the commit push triggers
+#   Cloudflare Pages' Git integration → automatic redeploy.
+# - On failure GitHub e-mails the repository owner automatically; the
+#   site keeps serving the last good data.
+name: sync-remax
+
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run parser tests (fail fast on site redesign)
+        run: npm test
+
+      - name: Sync listings, reviews and images
+        run: npm run sync
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+
+      - name: Verify the site still builds with the new data
+        run: npm run build
+
+      - name: Commit & push if data changed
+        run: |
+          git add src/data src/assets/listings
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name "remax-sync-bot"
+          git config user.email "actions@github.com"
+          git commit -m "chore(sync): $(date -u +%Y-%m-%d)"
+          git push

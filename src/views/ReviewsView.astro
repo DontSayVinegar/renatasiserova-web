@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { allReviews, reviewAggregate } from '../lib/listings';
+import { agent } from '../data/agent';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+const reviews = allReviews();
+const agg = reviewAggregate();
+---
+
+<Base lang={lang} title={`${t.reviews.title}${t.meta.titleSuffix}`} description={t.reviews.intro}>
+  <section class="mx-auto max-w-[1200px] px-5 py-14 md:px-8">
+    <h1 class="text-h1 font-display font-extrabold">{t.reviews.title}</h1>
+    <p class="mt-4 flex flex-wrap items-baseline gap-x-3 font-display text-xl font-bold">
+      <span class="text-signal" aria-hidden="true">★★★★★</span>
+      {agg.count}
+      {t.reviews.aggregate}
+    </p>
+    <p class="mt-2 max-w-xl text-ink-soft">
+      {t.reviews.intro}{' '}
+      <a
+        href={agent.remax.profileUrl}
+        class="link-signal font-medium"
+        target="_blank"
+        rel="noopener noreferrer">{t.reviews.source}</a
+      >
+    </p>
+    <div class="mt-10 columns-1 gap-6 space-y-6 md:columns-2 lg:columns-3">
+      {
+        reviews.map((r) => (
+          <div class="break-inside-avoid">
+            <ReviewCard review={r} lang={lang} />
+          </div>
+        ))
+      }
+    </div>
+  </section>
+  <CtaBand lang={lang} title={t.reviews.cta} />
+</Base>
