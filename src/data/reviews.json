@@ -1,0 +1,423 @@
+{
+  "syncedAt": "2026-07-06T12:40:43.329Z",
+  "aggregate": {
+    "count": 50,
+    "average": 5
+  },
+  "reviews": [
+    {
+      "id": "56a4eb59dfb0",
+      "rating": 5,
+      "text": {
+        "cs": "Renata, odvedla svoji práci v požadovaném termínu, kvalitně, rychle a jednoduše :-)",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "c137950afe79",
+      "rating": 5,
+      "text": {
+        "cs": "skvele sluzby, znalost trhu, skutecny expert",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "cdb7b8d43c9f",
+      "rating": 5,
+      "text": {
+        "cs": "Naprosto profesionální přístup, nadstandardní úroveň přístupu a celková kvalita realitní makléřky. Služby využíváme opakovaně.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "ce5e0df3e8c6",
+      "rating": 5,
+      "text": {
+        "cs": "Skvele sluzby, vstritnost, profesionalita!!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "889ccb1b5faa",
+      "rating": 5,
+      "text": {
+        "cs": "Profesionální a vstřícný pristup",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "6be26d217dbe",
+      "rating": 5,
+      "text": {
+        "cs": "Renata je profík každým coulem, umí člověku dobře poradit a se vším pomoci. Je to už podruhé, co jsme spolupracovaly, a pokud budu potřebovat další makléřské služby, určitě se na ni opět obrátím.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "023c1079084e",
+      "rating": 5,
+      "text": {
+        "cs": "Pani maklerka je velmi spolehliva a dobre se mi s ni spolupracuje.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "67406087a41f",
+      "rating": 5,
+      "text": {
+        "cs": "Paní Šiserovou vřele doporučují každému. Z naši spolupráce ji vnímám jako spolehlivou, profesionální a, co je důležité, také výkonnou. S jejím výsledkem jsem byl velmi spokojen a v budoucnu se na ní rád obrátím znovu.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "1f974d0ac342",
+      "rating": 5,
+      "text": {
+        "cs": "Lepšího makléře jsem nepotkala. Naprosto profesionální přístup s obrovskými zkušenostmi. Vše dokáže obratem vyřešit, nic jí nezaskočí. DOPORUČUJI VŠEM.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "63e4af327b54",
+      "rating": 5,
+      "text": {
+        "cs": "S paní Šiserovou jsme spolupracovali při prodeji bytu a zároveň jsme hledali nájemce do našeho nového bytu. Od první schůzky byla velmi profesionální, odborně zdatná a ochotná. Má kolem sebe tým zkušených lidí, díky čemuž byl celý proces rychlý a bezproblémový. Komunikace byla vždy jasná, rychlá a efektivní. Oceňujeme její nasazení a lidský přístup. Určitě ji doporučujeme každému, kdo hledá spolehlivého realitního makléře.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "3a3edac6391d",
+      "rating": 5,
+      "text": {
+        "cs": "Skvela spoluprace ve vsech ohledech, jiz podruhe.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "d446147f733b",
+      "rating": 5,
+      "text": {
+        "cs": "super sluzby a zakaznicky pristup !!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "07b756c1ef41",
+      "rating": 5,
+      "text": {
+        "cs": "Naprosto profesionální a nadstandardní přístup.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "e2ef07d276f6",
+      "rating": 5,
+      "text": {
+        "cs": "Proklientský a profesionální přístup",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "c9d695ebbbed",
+      "rating": 5,
+      "text": {
+        "cs": "Makréřka byla velice ochotná, milá, o vše se postarala. Měla vždy vše perfekně připravené. Skvělý přehled o realitách i o tom, jak je potřeba byt upravit, aby se co nejlépe prodal. Za mě naprpstá spokojenost, práce na jedničku!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "fafdfd5e50d2",
+      "rating": 5,
+      "text": {
+        "cs": "Velké poděkování patří makléřce p Renatě Šiserové a to dvakrát! Ano prodala nám dvě nemovitosti a její přístup , ochota a informovanost byla velice profesionální . Děkujeme",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "ad4b9f9aacea",
+      "rating": 5,
+      "text": {
+        "cs": "Profesionalni sluzby, spolehlivost, vyborna komunikace.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "510326056572",
+      "rating": 5,
+      "text": {
+        "cs": "Super pristup, profesionalita, rychle jednani",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "537b1c2dd26e",
+      "rating": 5,
+      "text": {
+        "cs": "Vynikající osobní přístup",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "d4ca822f032d",
+      "rating": 5,
+      "text": {
+        "cs": "Renatu doporučuji všem svým známým. Je naprosto profesionální ve všech směrech. Jsem přesvědčená, že neexistuje lepší makléř. Je schopna vyřešit všechny naše potřeby na 100%.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "9ebf567b28a6",
+      "rating": 5,
+      "text": {
+        "cs": "Makléřku doporučuji pro vysoce profesionální přístup, pečlivou kontrolu a pokrytí všech detailů prodeje i následně i pronájmu jako je např. řešení technických detailů nebo pomoc s administrativními úkony (převod energií, uzavírání smluv u dodavatelů). Příjemný způsob komunikace a flexibilita dle potřeb klienta.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "6cb80c292e03",
+      "rating": 5,
+      "text": {
+        "cs": "Spoluprácu s pani Šiserovou nadväzujeme opakovane, pretože jej jedinečný klientský prístup, ochota, profesionalita a šiesty zmysel pre potreby klientov sú výnimočné. Pokial nám život dá príležitosť znovu investovať do realit, určite sa na ňu bez zaváhania obrátime.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "990554c8757e",
+      "rating": 5,
+      "text": {
+        "cs": "Super servis!!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "08890bb0d71b",
+      "rating": 5,
+      "text": {
+        "cs": "Neměla jsem dosud s pronájmy zkušenost, proto jsem uvítala servis Renaty Šiserové, který byl opravdu full-servis - od fotografií přes formulaci a zveřejnění inzerátu, komunikaci se zájemci, schůzky na místě až po smluvní dokumentaci a převod energií. Již 2 nebo 3 dny po zveřejnění inzerátu měla v bytě 4 schůzky, ačkoli šlo o exponovaný předvánoční čas. Maximální spokojenost!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "f4780593f862",
+      "rating": 5,
+      "text": {
+        "cs": "Naprostá profesionalita a nadstandardní přístup.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "2fa76dfa26ed",
+      "rating": 5,
+      "text": {
+        "cs": "Velmi spokojená",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "0661625034fa",
+      "rating": 5,
+      "text": {
+        "cs": "Perfektni sluzby, vstricnost , znalost realitniho trhu, rychla reakce a reseni problemu",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "bd8e3abfd948",
+      "rating": 5,
+      "text": {
+        "cs": "100% servis, skvela spoluprace",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "cb095b18393d",
+      "rating": 5,
+      "text": {
+        "cs": "Naprostá profesionalita!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "09d97762cb28",
+      "rating": 5,
+      "text": {
+        "cs": "Paní Siserova nám prodávala už druhy byt. S její práci jsme byli opět moc spokojeni. Vše profesionální, perfektní komunikace a skvělý proklientsky přístup. Děkujeme!",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "3d6b750079b2",
+      "rating": 5,
+      "text": {
+        "cs": "Velmi proklientsky orientovana, vse samostatne vyridi. Navrhne nejidealnejsi reseni. Velmi doporucuji",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "a03e601ee1e9",
+      "rating": 5,
+      "text": {
+        "cs": "Profesionální a nadstandartní přístup od počátku až po podpis smluv. Oceňuji hlavně privátní síť kontaktů a nezávislý pohled pro obě strany transakce s ohledem na maximální etiku a profesionalitu.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "a90ef6f1bd39",
+      "rating": 5,
+      "text": {
+        "cs": "Naprostá spokojenost s profesionálním postupem.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "fc9be414d1b3",
+      "rating": 5,
+      "text": {
+        "cs": "Renata, je vždy pripravena pomoc at se to tyka jakekoliv zadosti/potreby, navíc je vždy dobře naladena.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "3e5e0250325f",
+      "rating": 5,
+      "text": {
+        "cs": "S makléřskou jsem byla naprosto spokojená. Velmi oceňuji její lidský přístup, spolehlivost, rychlost jednání, profesionalitu.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "f501ad953dc9",
+      "rating": 5,
+      "text": {
+        "cs": "Nalezení podnájemců bytu bylo rychlé a úspěsné.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "617a840fac39",
+      "rating": 5,
+      "text": {
+        "cs": "Spolupráce s paní Šiserovou byla výborná. Vše vysvětlila i naslouchala, prohlídky i následný prodej proběhl bez jakýchkoliv problémů a řekla bych i dost rychle a pro nás prakticky bez starostí, protože se paní makléřka o vše postarala a průběžně nás o všem informovala. Byla jsem nedůvěřivá, měla jsem obavu, ale naprosto zbytečně, vše proběhlo tak jak jsme si dohodli. Budeme-li znovu potřebovat služeb realitního makléře, rozhodně se na paní makléřku znovu obrátíme.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "5b6fff9a1401",
+      "rating": 5,
+      "text": {
+        "cs": "S prací makléřky jsme byli velice spokojeni; rychlý, operativní, profesionální přístup . Dobrý odhad situace a naprostá důvěra. O makléřku nám doporučil známý.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "5d96b0272cb0",
+      "rating": 5,
+      "text": {
+        "cs": "Velmi vstřícný, zákaznicky orientovaný přístup ... naprostá spokojenost !",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "823ce9a1d523",
+      "rating": 5,
+      "text": {
+        "cs": "Vstřícné a rychlé jednání.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "ca047c51fcd4",
+      "rating": 5,
+      "text": {
+        "cs": "Jako vzdy pani maklerka Siserova me nezklamala. Rychly profesionalni pristup. Je radost s ni spolupracovat. Dekuji",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "6caa1a8bd305",
+      "rating": 5,
+      "text": {
+        "cs": "Příjemné jednání, zodpovědný přístup, vše dotažené ke spokojenosti všech stran.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "73a9c81bd740",
+      "rating": 5,
+      "text": {
+        "cs": "Maximální spokojenost",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "82abcd7822e5",
+      "rating": 5,
+      "text": {
+        "cs": "Velika profesionalita, nezalekne se zadne prekazky, velice naslouchava jak pro prodavajiciho tak pro nakupujiciho. Meli jsme naprostou duveru a vse jsme ji sverili. Prodej byl slozity, ale ona to zvladla s velkym prehledem a vzdy s usmevem. Tesim se na dalsi spolupraci.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "330ab7f9867d",
+      "rating": 5,
+      "text": {
+        "cs": "Obrovská profesionalita, rychlost, spolehlivost, věcnost a celkový přístup se zaměřením na výsledek a spokojenost na všech stranách.",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
+    {
+      "id": "2df51847ff6e",
+      "rating": 5,
+      "text": {
+        "cs": "Profesionalita, spolehlivost, rychlost nalezení nájemníka, velmi seriózní jednání",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    }
+  ]
+}

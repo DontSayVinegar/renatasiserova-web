@@ -1,0 +1,124 @@
+/* Fonts — self-hosted (GDPR: no Google Fonts CDN) */
+@import '@fontsource-variable/bricolage-grotesque';
+@import '@fontsource-variable/schibsted-grotesk';
+
+@import 'tailwindcss';
+
+/*
+ * Design system — „Prague editorial"
+ * White paper · ink black · one bright vermillion red.
+ * Sharp corners, hairline rules, characterful display type.
+ */
+@theme {
+  /* palette */
+  --color-paper: #ffffff;
+  --color-ink: #111110;
+  --color-ink-soft: #6b6862;
+  --color-mist: #f4f3f0;
+  --color-signal: #e8340c;
+  --color-signal-deep: #bf2a09;
+
+  /* type */
+  --font-display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', sans-serif;
+  --font-body: 'Schibsted Grotesk Variable', 'Schibsted Grotesk', sans-serif;
+
+  /* fluid display sizes */
+  --text-display: clamp(2.75rem, 7.5vw, 6rem);
+  --text-display--line-height: 0.98;
+  --text-display--letter-spacing: -0.02em;
+  --text-h1: clamp(2.25rem, 5vw, 4rem);
+  --text-h1--line-height: 1.02;
+  --text-h1--letter-spacing: -0.015em;
+  --text-h2: clamp(1.6rem, 3.2vw, 2.5rem);
+  --text-h2--line-height: 1.08;
+  --text-h2--letter-spacing: -0.01em;
+
+  /* no soft corners anywhere — editorial sharpness */
+  --radius-none: 0;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background: var(--color-paper);
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background: var(--color-signal);
+    color: var(--color-paper);
+  }
+
+  body {
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-wrap: balance;
+  }
+
+  /* visible focus for keyboard users — red, sharp */
+  :focus-visible {
+    outline: 2px solid var(--color-signal);
+    outline-offset: 3px;
+  }
+}
+
+@utility microlabel {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+@utility hairline-t {
+  border-top: 1px solid var(--color-ink);
+}
+
+@utility hairline-b {
+  border-bottom: 1px solid var(--color-ink);
+}
+
+/* red underline link hover — the site's signature interaction */
+@utility link-signal {
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-signal), var(--color-signal));
+  background-size: 0% 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.25s ease;
+  &:hover {
+    background-size: 100% 2px;
+  }
+}
+
+/* ticker animation for the „Nedávno prodáno" strip */
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@utility animate-ticker {
+  animation: ticker 40s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ticker {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

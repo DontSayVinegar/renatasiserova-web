@@ -1,0 +1,202 @@
+export const cs = {
+  meta: {
+    siteName: 'Renata Šiserová — realitní makléřka Praha',
+    titleSuffix: ' | Renata Šiserová',
+    description:
+      'Renata Šiserová, realitní makléřka RE/MAX Anděl. Prodej, koupě a pronájem nemovitostí v Praze a středních Čechách. Budete o všem vědět, ale nemusíte se o nic starat.',
+  },
+  nav: {
+    listings: 'Nemovitosti',
+    sold: 'Prodáno',
+    reviews: 'Reference',
+    process: 'Jak prodávám',
+    about: 'O mně',
+    contact: 'Kontakt',
+    menu: 'Menu',
+    close: 'Zavřít',
+    switchLang: 'English',
+    switchLangLabel: 'Switch to English',
+  },
+  hero: {
+    kicker: 'Realitní makléřka · Praha & střední Čechy',
+    heading: 'Prodám vaši nemovitost bezpečně, rychle a za nejlepší cenu.',
+    sub: 'Jmenuji se Renata Šiserová. Devátým rokem pomáhám lidem prodat, koupit nebo pronajmout nemovitost — s klidem, přehledem a výsledky, za kterými si stojím.',
+    cta: 'Nezávazná konzultace',
+    ctaSecondary: 'Prohlédnout nemovitosti',
+  },
+  trust: {
+    years: 'let v realitách',
+    marketing: 'let v marketingu',
+    club: 'RE/MAX 100% Club',
+    reviews: 'hodnocení 5/5',
+    office: 'RE/MAX Anděl, Praha 5',
+  },
+  home: {
+    featuredTitle: 'Aktuální nabídka',
+    featuredAll: 'Všechny nemovitosti',
+    reviewsTitle: 'Co říkají klienti',
+    reviewsAll: 'Všechny reference',
+    processTitle: 'Jak prodávám',
+    processTeaser:
+      'Prodej nemovitosti je projekt. Vedu ho za vás od první konzultace po předání klíčů — a vy budete o všem vědět, ale nemusíte se o nic starat.',
+    processCta: 'Celý postup',
+    soldTicker: 'Nedávno prodáno',
+    ctaTitle: 'Přemýšlíte o prodeji?',
+    ctaText:
+      'Napište mi nebo zavolejte. První konzultace a odhad prodejní ceny jsou nezávazné a zdarma.',
+    ctaButton: 'Domluvit konzultaci',
+  },
+  listings: {
+    title: 'Nemovitosti',
+    intro: 'Aktuální nabídka prodeje a pronájmu. Data se denně synchronizují s RE/MAX.',
+    tabAll: 'Vše',
+    tabSale: 'Prodej',
+    tabRent: 'Pronájem',
+    empty:
+      'Právě připravuji nové nabídky. Chcete prodat nemovitost? Ozvěte se mi — ráda ji připravím k prodeji jako první.',
+    emptyCta: 'Kontaktovat',
+    sale: 'Prodej',
+    rent: 'Pronájem',
+    reserved: 'Rezervováno',
+    sold: 'Prodáno',
+    rented: 'Pronajato',
+    priceOnRequest: 'Cena na vyžádání',
+    perMonth: '/ měsíc',
+    detail: {
+      facts: 'Parametry',
+      ref: 'Ref. číslo',
+      disposition: 'Dispozice',
+      area: 'Užitná plocha',
+      landArea: 'Plocha pozemku',
+      location: 'Lokalita',
+      price: 'Cena',
+      status: 'Stav',
+      statusActive: 'V nabídce',
+      description: 'Popis',
+      interested: 'Zaujala vás tato nemovitost?',
+      interestedText: 'Napište mi a domluvíme si prohlídku nebo zavolejte na',
+      cta: 'Mám zájem',
+      source: 'Nabídka na remax-czech.cz',
+      gallery: 'Fotogalerie',
+      photoOf: 'Fotografie',
+      backToListings: 'Zpět na nemovitosti',
+    },
+  },
+  sold: {
+    title: 'Prodáno & pronajato',
+    intro:
+      'Výběr nemovitostí, které jsem v poslední době úspěšně prodala nebo pronajala. Za každou z nich je spokojený klient.',
+  },
+  reviews: {
+    title: 'Reference',
+    aggregate: 'hodnocení · průměr 5/5 hvězdiček',
+    source: 'Zdroj: remax-czech.cz',
+    intro: 'Hodnocení klientů z oficiálního profilu na remax-czech.cz — nezkrácená a neupravovaná.',
+    stars: 'hvězdiček z 5',
+    cta: 'Chcete podobnou zkušenost?',
+  },
+  process: {
+    title: 'Jak prodávám',
+    intro:
+      'Prodej nemovitosti není inzerát — je to řízený projekt s jasnými kroky. Tady je přesně to, co pro vás udělám.',
+    steps: [
+      {
+        title: 'Konzultace a odhad ceny',
+        text: 'Sejdeme se u vás nebo v kanceláři. Projdu s vámi nemovitost, situaci na trhu a stanovíme reálnou prodejní strategii i cenu. Nezávazně a zdarma.',
+      },
+      {
+        title: 'Příprava nemovitosti',
+        text: 'Připravím nemovitost tak, aby zaujala: úklid, drobné úpravy, home staging. První dojem rozhoduje o ceně víc, než si většina prodávajících myslí.',
+      },
+      {
+        title: 'Profesionální prezentace',
+        text: 'Profesionální fotografie, půdorysy, video i texty. Dvacet let v marketingu znamená, že vaše nemovitost nebude jen inzerát mezi tisíci dalšími.',
+      },
+      {
+        title: 'Inzerce a prohlídky',
+        text: 'Nemovitost dostane maximální dosah — realitní portály, síť RE/MAX, moje databáze poptávek. Prohlídky vedu já a z každé máte report.',
+      },
+      {
+        title: 'Právní servis a předání',
+        text: 'Rezervační smlouva, kupní smlouva, úschova, katastr, předání. Vše hlídá právní servis RE/MAX a já vás provedu každým podpisem.',
+      },
+    ],
+    faqTitle: 'Časté otázky',
+    faq: [
+      {
+        q: 'Kolik stojí vaše služby?',
+        a: 'Provize je vždy sjednána předem a transparentně ve smlouvě — žádné skryté poplatky. Zahrnuje kompletní servis: přípravu, prezentaci, inzerci, prohlídky i právní služby. Konkrétní výši vám řeknu na první konzultaci podle typu nemovitosti.',
+      },
+      {
+        q: 'Jak dlouho trvá prodej?',
+        a: 'U správně nastavené ceny a kvalitní prezentace obvykle 4–8 týdnů do rezervace. Přesnější odhad pro vaši nemovitost a lokalitu vám dám na konzultaci.',
+      },
+      {
+        q: 'Už inzeruji sám. Má smysl se ozvat?',
+        a: 'Určitě. Ráda vám nezávazně řeknu, co bych udělala jinak — od ceny přes fotografie po strategii. Rozhodnutí je pak na vás.',
+      },
+      {
+        q: 'Pomůžete i s koupí nebo pronájmem?',
+        a: 'Ano. Zastupuji i kupující a pronajímatele — od vyhledání nemovitosti přes prověření po smlouvy a předání.',
+      },
+    ],
+    cta: 'Pojďme probrat vaši nemovitost',
+  },
+  about: {
+    title: 'O mně',
+    kicker: 'Renata Šiserová · RE/MAX Anděl',
+    story: [
+      'Než jsem vstoupila do realit, strávila jsem dvacet let v marketingu — vedla jsem značky, kampaně a týmy. Naučilo mě to jednu věc, která se v realitách ukázala jako zásadní: prodat dobře neznamená jen vystavit inzerát, ale vybudovat kolem nemovitosti příběh, který osloví správné kupce.',
+      'Devátým rokem pomáhám lidem bezpečně, rychle a za nejlepší dosažitelnou cenu prodat, koupit nebo pronajmout nemovitost. Působím v RE/MAX Anděl na pražském Smíchově — jedné z nejúspěšnějších kanceláří RE/MAX v České republice — a specializuji se na byty, domy a pozemky v Praze a středních Čechách.',
+      'Moji klienti jsou často zaneprázdnění lidé, kteří chtějí mít v realitách spolehlivého partnera — stejně jako mají svého právníka nebo daňového poradce. Proto u mě platí jednoduché pravidlo: budete o všem vědět, ale nemusíte se o nic starat.',
+    ],
+    certsTitle: 'Certifikace a ocenění',
+    officeTitle: 'Kancelář',
+    cta: 'Napište mi',
+  },
+  contact: {
+    title: 'Kontakt',
+    intro: 'Ozvěte se mi — telefonem, e-mailem, WhatsAppem nebo přes formulář. Odpovídám rychle.',
+    form: {
+      name: 'Jméno a příjmení',
+      email: 'E-mail',
+      phone: 'Telefon (nepovinné)',
+      message: 'Zpráva',
+      messagePlaceholder: 'Dobrý den, chci prodat byt 3+kk v Praze…',
+      submit: 'Odeslat zprávu',
+      sending: 'Odesílám…',
+      success: 'Děkuji! Vaše zpráva je na cestě. Ozvu se vám co nejdříve.',
+      error: 'Zprávu se nepodařilo odeslat. Zkuste to prosím znovu, nebo mi rovnou zavolejte.',
+      gdpr: 'Odesláním formuláře souhlasíte se zpracováním údajů za účelem vyřízení vaší poptávky.',
+      gdprLink: 'Zásady ochrany osobních údajů',
+      required: 'Vyplňte prosím všechna povinná pole.',
+      invalidEmail: 'Zadejte prosím platný e-mail.',
+    },
+    direct: 'Přímý kontakt',
+    whatsapp: 'Napsat na WhatsApp',
+    vcard: 'Uložit kontakt (vCard)',
+    officeTitle: 'Kancelář',
+    officeMap: 'Zobrazit na Mapy.cz',
+    subject: 'Poptávka z webu renatasiserova.cz',
+  },
+  footer: {
+    tagline: 'Realitní makléřka RE/MAX Anděl — Praha a střední Čechy.',
+    legal: 'Fyzická osoba zapsaná v živnostenském rejstříku.',
+    law39:
+      'Realitní zprostředkovatel ve smyslu zákona č. 39/2020 Sb. Pojištění profesní odpovědnosti sjednáno.',
+    coi: 'Subjektem mimosoudního řešení spotřebitelských sporů je Česká obchodní inspekce (coi.cz).',
+    cookies: 'Tento web nepoužívá cookies.',
+    privacy: 'Ochrana osobních údajů',
+    ic: 'IČ',
+    copyright: '© {year} Renata Šiserová',
+  },
+  whatsapp: {
+    label: 'Napsat na WhatsApp',
+  },
+  a11y: {
+    skipToContent: 'Přeskočit na obsah',
+    openInNewTab: 'otevře se v novém okně',
+  },
+} as const;
+
+export type Dictionary = typeof cs;

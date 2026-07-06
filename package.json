@@ -1,0 +1,37 @@
+{
+  "name": "renatasiserova-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal website of Renata Šiserová, real estate agent (RE/MAX Anděl, Prague)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "sync": "tsx scripts/sync/index.ts",
+    "sync:dry": "tsx scripts/sync/index.ts --dry-run",
+    "test": "vitest run",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/bricolage-grotesque": "^5.2.10",
+    "@fontsource-variable/schibsted-grotesk": "^5.2.8",
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^5.18.2",
+    "cheerio": "^1.2.0",
+    "deepl-node": "^1.27.0",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^4.3.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

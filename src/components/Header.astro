@@ -1,0 +1,93 @@
+---
+import { agent } from '../data/agent';
+import { route } from '../i18n/routes';
+import { alternatePath } from '../i18n/routes';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+const path = Astro.url.pathname;
+const switchHref = alternatePath(path, lang);
+
+const nav = [
+  { href: route('listings', lang), label: t.nav.listings },
+  { href: route('process', lang), label: t.nav.process },
+  { href: route('reviews', lang), label: t.nav.reviews },
+  { href: route('about', lang), label: t.nav.about },
+  { href: route('contact', lang), label: t.nav.contact },
+];
+
+const isActive = (href: string) => path === href || (href !== '/' && path.startsWith(href));
+---
+
+<header class="hairline-b sticky top-0 z-40 bg-paper/95 backdrop-blur-sm">
+  <div class="mx-auto flex max-w-[1200px] items-center justify-between gap-6 px-5 py-4 md:px-8">
+    <a
+      href={route('home', lang)}
+      class="font-display text-xl font-extrabold tracking-tight whitespace-nowrap"
+    >
+      Renata Šiserová<span class="text-signal">.</span>
+    </a>
+
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Hlavní navigace">
+      {
+        nav.map((item) => (
+          <a
+            href={item.href}
+            class:list={['link-signal text-[0.95rem] font-medium', isActive(item.href) && 'text-signal']}
+            aria-current={isActive(item.href) ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="hidden items-center gap-5 lg:flex">
+      <a href={agent.phoneHref} class="link-signal font-display text-[0.95rem] font-bold whitespace-nowrap">
+        {agent.phone}
+      </a>
+      <a
+        href={switchHref}
+        class="microlabel hairline-b border-ink/40 pb-0.5 hover:text-signal"
+        aria-label={t.nav.switchLangLabel}
+      >
+        {t.nav.switchLang}
+      </a>
+    </div>
+
+    <!-- Mobile menu: <details> works without JavaScript -->
+    <details class="group relative lg:hidden">
+      <summary
+        class="microlabel flex cursor-pointer list-none items-center gap-2 border border-ink px-3 py-2 select-none group-open:bg-ink group-open:text-paper [&::-webkit-details-marker]:hidden"
+      >
+        <span class="group-open:hidden">{t.nav.menu}</span>
+        <span class="hidden group-open:inline">{t.nav.close}</span>
+      </summary>
+      <div class="absolute right-0 z-50 mt-3 w-64 border border-ink bg-paper shadow-[6px_6px_0_0_var(--color-ink)]">
+        <nav class="flex flex-col" aria-label="Menu">
+          {
+            nav.map((item) => (
+              <a
+                href={item.href}
+                class="hairline-b border-ink/15 px-5 py-3.5 font-medium hover:bg-mist"
+                aria-current={isActive(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+          <a href={agent.phoneHref} class="hairline-b border-ink/15 px-5 py-3.5 font-display font-bold">
+            {agent.phone}
+          </a>
+          <a href={switchHref} class="microlabel px-5 py-3.5 hover:bg-mist">
+            {t.nav.switchLang}
+          </a>
+        </nav>
+      </div>
+    </details>
+  </div>
+</header>

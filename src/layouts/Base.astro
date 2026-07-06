@@ -1,0 +1,74 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppButton from '../components/WhatsAppButton.astro';
+import { realEstateAgentJsonLd } from '../lib/schema-org';
+import { alternatePath } from '../i18n/routes';
+import { useT, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  /** Path of this page in the other language. Computed from pathname when omitted. */
+  altPath?: string;
+  ogImage?: string;
+  /** Extra JSON-LD objects (e.g. RealEstateListing on detail pages). */
+  jsonLd?: object[];
+  noIndex?: boolean;
+}
+
+const { lang, title, description, altPath, ogImage, jsonLd = [], noIndex = false } = Astro.props;
+const t = useT(lang);
+
+const site = Astro.site!.origin;
+const path = Astro.url.pathname;
+const canonical = `${site}${path}`;
+const otherPath = altPath ?? alternatePath(path, lang);
+const csUrl = lang === 'cs' ? canonical : `${site}${otherPath}`;
+const enUrl = lang === 'en' ? canonical : `${site}${otherPath}`;
+const ogImageUrl = `${site}${ogImage ?? '/og/og-default.jpg'}`;
+const allJsonLd = [realEstateAgentJsonLd(lang), ...jsonLd];
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noIndex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="cs" href={csUrl} />
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="x-default" href={csUrl} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t.meta.siteName} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : 'en_GB'} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    {allJsonLd.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+  </head>
+  <body class="bg-paper text-ink font-body">
+    <a
+      href="#main"
+      class="microlabel sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-ink focus:text-paper focus:px-4 focus:py-2"
+    >
+      {t.a11y.skipToContent}
+    </a>
+    <Header lang={lang} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <WhatsAppButton lang={lang} />
+  </body>
+</html>

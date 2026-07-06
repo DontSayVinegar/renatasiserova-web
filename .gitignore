@@ -1,0 +1,21 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# environment / secrets — never commit
+.env
+.env.*
+.dev.vars
+
+# OS
+.DS_Store
+
+# raw unoptimized originals (10MB photos stay out of the repo;
+# optimized versions live in src/assets/portraits/)
+raw-assets/
+
+# logs
+npm-debug.log*
