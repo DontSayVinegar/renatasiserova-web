@@ -1,7 +1,59 @@
 {
-  "syncedAt": "2026-07-06T17:35:29.696Z",
+  "syncedAt": "2026-07-17T05:26:38.775Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "444172",
+      "ref": "218-NP07301",
+      "slug": "pronajem-bytu-3-kk-v-osobnim-vlastnictvi-78-m2-praha-4-modrany",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/444172/pronajem-bytu-3-kk-v-osobnim-vlastnictvi-78-m2-praha-4-modrany",
+      "title": {
+        "cs": "Pronájem bytu 3+kk v osobním vlastnictví 78 m², Praha 4 - Modřany",
+        "en": "Apartment for rent, 3+kk, 78 m², Prague 4 - Modřany"
+      },
+      "description": {
+        "cs": "Pronájem nového bytu 3+kk v projektu Modřanský cukrovar s parkovacím stáním a s vlastním wallboxem\n\nNabízíme k pronájmu zcela nový byt 3+kk v projektu Modřanský cukrovar, který na břehu Vltavy vyrůstá na místě bývalé cukrovarnické továrny v Praze-Modřanech. Součástí bytu je také sklepní kóje 4,8m² a širší parkovací stání (17 m²) v podzemních garážích, vybavené wallboxem pro pohodlné nabíjení elektromobilu přímo u vašeho auta.\nByt 3+kk o celkové ploše cca 77,6 m² + 16,2 m² krytá lodžie (po celé délce obývacího pokoje) nabízí světlý obývací pokoj s částečným výhledem na Vltavu, dva pokoje, koupelnu s WC, samostatné WC a komoru přímo v bytě. V bytě se bude realizovat moderní kuchyňská linka, vestavná skříň v chodbě a osvětlení. Okna jsou vybavena venkovními žaluziemi.\nModřanský cukrovar patří k nejmodernějším rezidenčním projektům v Praze a klade důraz na kvalitu bydlení i udržitelnost, standardem je energetická třída A, hospodaření s dešťovou vodou, venkovní žaluzie či podlahové vytápění nebo sdílené střešní terasy, komunitní zahrady a poloveřejné plochy pro děti mezi domy.\nLokalita Modřan patří mezi oblíbené právě díky propojení městského komfortu a blízkosti přírody. V docházkové vzdálenosti se nachází cyklostezka podél Vltavy, ideální pro sport i volnočasové aktivity, stejně jako přírodní park Modřanská rokle. Samozřejmostí je kompletní občanská vybavenost v okolí, včetně obchodů, restaurací, kaváren, škol i školek.\nTramvajová zastávka je v krátké docházkové vzdálenosti a nabízí přímé spojení do centra Prahy. Lokalita má zároveň dobré napojení na hlavní dopravní tahy.\nMěsíční nájemné činí 38 000,- Kč, poplatky za služby 4 743,- Kč/2 osoby (navýšení za každou další osobu je 500,-kč) a vratná kauce je stanovena ve výši 76 000,- Kč. Nájemce neplatí provizi RK. Elektřina bude převedena na nájemce.\nNeváhejte mě kontaktovat, ráda Vás touto nemovitostí provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "rent",
+      "propertyType": "apartment",
+      "disposition": "3+kk",
+      "price": {
+        "amount": 38000,
+        "currency": "CZK",
+        "period": "month",
+        "note": null
+      },
+      "areaM2": 78,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Praha 4 - Modřany",
+        "district": null,
+        "region": "Hlavní město Praha"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/444172/3466231.jpg",
+        "/src/assets/listings/444172/3466232.jpg",
+        "/src/assets/listings/444172/3466233.jpg",
+        "/src/assets/listings/444172/3466234.jpg",
+        "/src/assets/listings/444172/3466235.jpg",
+        "/src/assets/listings/444172/3466236.jpg",
+        "/src/assets/listings/444172/3466237.jpg",
+        "/src/assets/listings/444172/3466238.jpg",
+        "/src/assets/listings/444172/3466239.jpg",
+        "/src/assets/listings/444172/3466240.jpg",
+        "/src/assets/listings/444172/3466241.jpg",
+        "/src/assets/listings/444172/3466242.jpg",
+        "/src/assets/listings/444172/3466243.jpg",
+        "/src/assets/listings/444172/3466244.jpg",
+        "/src/assets/listings/444172/3466245.jpg"
+      ],
+      "firstSeen": "2026-07-17T05:26:38.775Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
+      "statusChangedAt": "2026-07-17T05:26:38.775Z"
+    },
     {
       "id": "441842",
       "ref": "218-NP07234",
@@ -51,7 +103,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -94,7 +146,7 @@
         "/src/assets/listings/440743/3383998.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -145,7 +197,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -197,7 +249,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -240,7 +292,7 @@
         "/src/assets/listings/416439/2845922.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -292,7 +344,7 @@
         "/src/assets/listings/414619/2802802.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -344,7 +396,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -396,7 +448,7 @@
         "/src/assets/listings/413297/2770560.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-06T17:35:29.696Z",
+      "lastSeen": "2026-07-17T05:26:38.775Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     }
   ]
