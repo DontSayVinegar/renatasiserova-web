@@ -1,7 +1,56 @@
 {
-  "syncedAt": "2026-07-18T05:08:25.985Z",
+  "syncedAt": "2026-07-20T05:53:15.178Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "444245",
+      "ref": "218-NP07303",
+      "slug": "pronajem-bytu-2-1-v-osobnim-vlastnictvi-53-m2-praha-3-zizkov",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/444245/pronajem-bytu-2-1-v-osobnim-vlastnictvi-53-m2-praha-3-zizkov",
+      "title": {
+        "cs": "Pronájem bytu 2+1 v osobním vlastnictví 53 m², Praha 3 - Žižkov",
+        "en": "Apartment for rent, 2+1, 53 m², Prague 3 - Žižkov"
+      },
+      "description": {
+        "cs": "Pronájem bytu 2+1 s plochou 53 m², Praha 3, Žižkov, Pod Lipami\n\nNabízíme k pronájmu byt o dispozici 2+1 a výměře 53 m²  v ulici Pod Lipami 2561/33, Praha 3 Žižkov. Byt je umístěn v 1.NP bez balkonu a nabízí dva pokoje, kuchyň,  koupelnu a samostatné WC. Byt se pronajímá bez nábytku, aktuální nábytek je současného nájemníka.\nLokalita Žižkova je dlouhodobě vyhledávaná pro svou atmosféru a kompletní občanskou vybavenost. V docházkové vzdálenosti se nachází obchody, restaurace, kavárny, školy i zdravotnická zařízení. Spojení MHD ze zastávky Spojovací umožňuje dostupnost do centra Prahy do 20 minut.\nMilovníci aktivního života ocení blízkost parků a zeleně, například parku Krejcárek nebo Vítkov, které nabízejí prostor pro sport, procházky i relaxaci s výhledem na město.\nMěsíční nájemné činí 19 000,- Kč, poplatky za služby 4 358,- Kč/2 osoby a vratná kauce je stanovena ve výši 30 000,- Kč. Provize RK je 19 000 +DPH. Elektřina bude převedena na nájemce.\nNeváhejte mě kontaktovat, ráda Vás touto nemovitostí provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "rent",
+      "propertyType": "apartment",
+      "disposition": "2+1",
+      "price": {
+        "amount": 19000,
+        "currency": "CZK",
+        "period": "month",
+        "note": null
+      },
+      "areaM2": 53,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Praha 3 - Žižkov",
+        "district": null,
+        "region": "Hlavní město Praha"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/444245/3468241.jpg",
+        "/src/assets/listings/444245/3468244.jpg",
+        "/src/assets/listings/444245/3468242.jpg",
+        "/src/assets/listings/444245/3468245.jpg",
+        "/src/assets/listings/444245/3468246.jpg",
+        "/src/assets/listings/444245/3468247.jpg",
+        "/src/assets/listings/444245/3468248.jpg",
+        "/src/assets/listings/444245/3468250.jpg",
+        "/src/assets/listings/444245/3468251.jpg",
+        "/src/assets/listings/444245/3468256.jpg",
+        "/src/assets/listings/444245/3468254.jpg",
+        "/src/assets/listings/444245/3468255.jpg"
+      ],
+      "firstSeen": "2026-07-20T05:53:15.178Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
+      "statusChangedAt": "2026-07-20T05:53:15.178Z"
+    },
     {
       "id": "444172",
       "ref": "218-NP07301",
@@ -51,7 +100,7 @@
         "/src/assets/listings/444172/3466245.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-17T05:26:38.775Z"
     },
     {
@@ -103,7 +152,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -146,7 +195,7 @@
         "/src/assets/listings/440743/3383998.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -197,7 +246,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -249,7 +298,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -292,7 +341,7 @@
         "/src/assets/listings/416439/2845922.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -344,7 +393,7 @@
         "/src/assets/listings/414619/2802802.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -396,7 +445,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -448,7 +497,7 @@
         "/src/assets/listings/413297/2770560.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-18T05:08:25.985Z",
+      "lastSeen": "2026-07-20T05:53:15.178Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     }
   ]
