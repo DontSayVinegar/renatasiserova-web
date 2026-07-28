@@ -1,7 +1,59 @@
 {
-  "syncedAt": "2026-07-27T06:04:14.348Z",
+  "syncedAt": "2026-07-28T05:29:30.570Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "444819",
+      "ref": "218-NP07318",
+      "slug": "prodej-bytu-3-1-v-osobnim-vlastnictvi-99-m2-praha-5-smichov",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/444819/prodej-bytu-3-1-v-osobnim-vlastnictvi-99-m2-praha-5-smichov",
+      "title": {
+        "cs": "Prodej bytu 3+1 v osobním vlastnictví 99 m², Praha 5 - Smíchov",
+        "en": "Apartment for sale, 3+1, 99 m², Prague 5 - Smíchov"
+      },
+      "description": {
+        "cs": "Prostorný byt 3+1 99 m² se sklepem blízko Vltavy a smíchovské náplavky\n\nNabízíme k prodeji prostorný byt o velikosti 99 m² ve vyhledávané lokalitě Praha 5 – Smíchov, ulice Svornosti ve 4.NP.  Byt má čtyři prostorné pokoje z toho největší rohový pokoj má 27m², ostatní dva 18m² a 22m² a kuchyně 17m². Dále je v bytě koupelna, samostatné WC, malá komora a prostorná předsíň. K bytu náleží sklep 4m².  Byt je v současnosti využíván jako ateliér českého malíře Tomáše Němce, je světlý, prostorný, má krásné výhledy na Vltavu. Dispozičně se dá byt upravit dle představ nového majitele a je třeba počítat s revitalizací stávající podlahy. Inspirace viz vizualizace ve fotodokumentaci.\nSmíchov patří dlouhodobě mezi žádané pražské čtvrti a aktuálně prochází zásadní proměnou. Probíhá rozsáhlá rekonstrukce Smíchovského nádraží, které se v příštích letech změní na moderní dopravní uzel propojující vlak, metro, tramvaj i autobusy a postupně se staví nová moderní čtvrť Smíchov City s novými bistry, kavárnami a obchody. Významným prvkem do budoucna je také rekonstrukce železničního mostu, který propojuje Smíchov s Výtoní a Vyšehradem. Jen malý kousek to máte do vyhlášené restaurace s obchodem WFM.\nTento byt představuje ideální volbu pro ty, kteří hledají kvalitní a komfortní bydlení v blízkosti Vltavy, centra a v lokalitě s velkým rozvojovým potenciálem.\nNeváhejte mě kontaktovat, ráda Vás touto nemovitostí provedu.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "sale",
+      "propertyType": "apartment",
+      "disposition": "3+1",
+      "price": {
+        "amount": 13990000,
+        "currency": "CZK",
+        "period": "once",
+        "note": null
+      },
+      "areaM2": 99,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Praha 5 - Smíchov",
+        "district": null,
+        "region": "Hlavní město Praha"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/444819/3482640.jpg",
+        "/src/assets/listings/444819/3482642.jpg",
+        "/src/assets/listings/444819/3482643.jpg",
+        "/src/assets/listings/444819/3482641.jpg",
+        "/src/assets/listings/444819/3482644.jpg",
+        "/src/assets/listings/444819/3482645.jpg",
+        "/src/assets/listings/444819/3482646.jpg",
+        "/src/assets/listings/444819/3482647.jpg",
+        "/src/assets/listings/444819/3482648.jpg",
+        "/src/assets/listings/444819/3482649.jpg",
+        "/src/assets/listings/444819/3482658.jpg",
+        "/src/assets/listings/444819/3482660.jpg",
+        "/src/assets/listings/444819/3482659.jpg",
+        "/src/assets/listings/444819/3482661.jpg",
+        "/src/assets/listings/444819/3482650.jpg"
+      ],
+      "firstSeen": "2026-07-28T05:29:30.570Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
+      "statusChangedAt": "2026-07-28T05:29:30.570Z"
+    },
     {
       "id": "444245",
       "ref": "218-NP07303",
@@ -87,7 +139,7 @@
         "/src/assets/listings/444172/3466244.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-17T05:26:38.775Z"
     },
     {
@@ -139,7 +191,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -182,7 +234,7 @@
         "/src/assets/listings/440743/3383998.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -233,7 +285,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -285,7 +337,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -328,7 +380,7 @@
         "/src/assets/listings/416439/2845922.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -380,7 +432,7 @@
         "/src/assets/listings/414619/2802802.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -432,7 +484,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -484,7 +536,7 @@
         "/src/assets/listings/413297/2770560.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-07-27T06:04:14.348Z",
+      "lastSeen": "2026-07-28T05:29:30.570Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     }
   ]
