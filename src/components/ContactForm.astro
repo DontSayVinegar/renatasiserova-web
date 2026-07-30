@@ -122,7 +122,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | u
     if (ref) {
       const message = form.querySelector('#cf-message') as HTMLTextAreaElement;
       const subject = form.querySelector('input[name="subject"]') as HTMLInputElement;
-      subject.value = `${subject.value} — ${ref}`;
+      subject.value = `${subject.value} - ${ref}`;
       if (!message.value) message.value = `Ref. ${ref}: `;
     }
 

@@ -2,7 +2,7 @@ import type { Dictionary } from './cs';
 
 export const en: Dictionary = {
   meta: {
-    siteName: 'Renata Šiserová — Real Estate Agent Prague',
+    siteName: 'Renata Šiserová - Real Estate Agent Prague',
     titleSuffix: ' | Renata Šiserová',
     description:
       'Renata Šiserová, real estate agent at RE/MAX Anděl. Buying, selling and renting property in Prague and Central Bohemia. English-speaking service for expats and investors.',
@@ -22,7 +22,7 @@ export const en: Dictionary = {
   hero: {
     kicker: 'Real estate agent · Prague & Central Bohemia',
     heading: 'I sell your property safely, quickly and for the best price.',
-    sub: 'My name is Renata Šiserová. For nine years I have been helping people sell, buy and rent property — with calm, clarity and results I stand behind. I work with international clients in English.',
+    sub: 'My name is Renata Šiserová. For nine years I have been helping people sell, buy and rent property - with calm, clarity and results I stand behind. I work with international clients in English.',
     cta: 'Free consultation',
     ctaSecondary: 'Browse properties',
   },
@@ -40,7 +40,7 @@ export const en: Dictionary = {
     reviewsAll: 'All reviews',
     processTitle: 'How I sell',
     processTeaser:
-      'Selling a property is a project. I run it for you from the first consultation to the handover of keys — you will know about everything and worry about nothing.',
+      'Selling a property is a project. I run it for you from the first consultation to the handover of keys - you will know about everything and worry about nothing.',
     processCta: 'The full process',
     soldTicker: 'Recently sold',
     ctaTitle: 'Thinking about selling?',
@@ -55,7 +55,7 @@ export const en: Dictionary = {
     tabSale: 'For sale',
     tabRent: 'For rent',
     empty:
-      'New listings are on the way. Want to sell your property? Get in touch — I will gladly prepare it for the market first.',
+      'New listings are on the way. Want to sell your property? Get in touch - I will gladly prepare it for the market first.',
     emptyCta: 'Contact me',
     sale: 'For sale',
     rent: 'For rent',
@@ -94,14 +94,14 @@ export const en: Dictionary = {
     aggregate: 'reviews · 5/5 star average',
     source: 'Source: remax-czech.cz',
     intro:
-      'Client reviews from my official remax-czech.cz profile — unabridged and unedited. Reviews are machine-translated from Czech.',
+      'Client reviews from my official remax-czech.cz profile - unabridged and unedited. Reviews are machine-translated from Czech.',
     stars: 'stars out of 5',
     cta: 'Want the same experience?',
   },
   process: {
     title: 'How I sell',
     intro:
-      'Selling a property is not a classified ad — it is a managed project with clear steps. Here is exactly what I will do for you.',
+      'Selling a property is not a classified ad - it is a managed project with clear steps. Here is exactly what I will do for you.',
     steps: [
       {
         title: 'Consultation & price estimate',
@@ -117,7 +117,7 @@ export const en: Dictionary = {
       },
       {
         title: 'Marketing & viewings',
-        text: 'Your property gets maximum reach — property portals, the RE/MAX network, my own database of buyers. I run every viewing personally and report back after each one.',
+        text: 'Your property gets maximum reach - property portals, the RE/MAX network, my own database of buyers. I run every viewing personally and report back after each one.',
       },
       {
         title: 'Legal service & handover',
@@ -128,7 +128,7 @@ export const en: Dictionary = {
     faq: [
       {
         q: 'How much do your services cost?',
-        a: 'The commission is always agreed upfront and transparently in the contract — no hidden fees. It covers the complete service: preparation, presentation, marketing, viewings and legal services. I will tell you the exact rate at the first consultation, based on the property type.',
+        a: 'The commission is always agreed upfront and transparently in the contract - no hidden fees. It covers the complete service: preparation, presentation, marketing, viewings and legal services. I will tell you the exact rate at the first consultation, based on the property type.',
       },
       {
         q: 'How long does a sale take?',
@@ -136,11 +136,11 @@ export const en: Dictionary = {
       },
       {
         q: 'I am already advertising on my own. Is it worth talking?',
-        a: 'Definitely. I will gladly tell you, with no obligation, what I would do differently — from pricing to photos to strategy. The decision stays with you.',
+        a: 'Definitely. I will gladly tell you, with no obligation, what I would do differently - from pricing to photos to strategy. The decision stays with you.',
       },
       {
         q: 'Do you also help with buying or renting?',
-        a: 'Yes. I also represent buyers and landlords — from finding a property through due diligence to contracts and handover.',
+        a: 'Yes. I also represent buyers and landlords - from finding a property through due diligence to contracts and handover.',
       },
     ],
     cta: "Let's talk about your property",
@@ -149,9 +149,9 @@ export const en: Dictionary = {
     title: 'About me',
     kicker: 'Renata Šiserová · RE/MAX Anděl',
     story: [
-      'Before real estate, I spent twenty years in marketing — leading brands, campaigns and teams. It taught me one thing that turned out to be essential in property: selling well is not about posting an ad, it is about building a story around a property that reaches the right buyers.',
-      'For nine years I have been helping people sell, buy and rent property safely, quickly and for the best achievable price. I work at RE/MAX Anděl in Prague&#8217;s Smíchov district — one of the most successful RE/MAX offices in the Czech Republic — and specialise in apartments, houses and land in Prague and Central Bohemia.',
-      'My clients are often busy people who want a reliable partner in real estate — just as they have their lawyer or tax advisor. That is why I work by a simple rule: you will know about everything, and worry about nothing. I am happy to work with international clients in English.',
+      'Before real estate, I spent twenty years in marketing - leading brands, campaigns and teams. It taught me one thing that turned out to be essential in property: selling well is not about posting an ad, it is about building a story around a property that reaches the right buyers.',
+      'For nine years I have been helping people sell, buy and rent property safely, quickly and for the best achievable price. I work at RE/MAX Anděl in Prague&#8217;s Smíchov district - one of the most successful RE/MAX offices in the Czech Republic - and specialise in apartments, houses and land in Prague and Central Bohemia.',
+      'My clients are often busy people who want a reliable partner in real estate - just as they have their lawyer or tax advisor. That is why I work by a simple rule: you will know about everything, and worry about nothing. I am happy to work with international clients in English.',
     ],
     certsTitle: 'Certifications & awards',
     officeTitle: 'Office',
@@ -159,7 +159,7 @@ export const en: Dictionary = {
   },
   contact: {
     title: 'Contact',
-    intro: 'Get in touch — by phone, e-mail, WhatsApp or the form below. I reply quickly.',
+    intro: 'Get in touch - by phone, e-mail, WhatsApp or the form below. I reply quickly.',
     form: {
       name: 'Full name',
       email: 'E-mail',
@@ -183,7 +183,7 @@ export const en: Dictionary = {
     subject: 'Enquiry from renatasiserova.cz',
   },
   footer: {
-    tagline: 'Real estate agent at RE/MAX Anděl — Prague & Central Bohemia.',
+    tagline: 'Real estate agent at RE/MAX Anděl - Prague & Central Bohemia.',
     legal: 'Sole trader registered in the Czech Trade Licensing Register.',
     law39:
       'Real estate broker under Czech Act No. 39/2020 Coll. Professional liability insurance in place.',
@@ -191,6 +191,7 @@ export const en: Dictionary = {
     cookies: 'This website uses no cookies.',
     privacy: 'Privacy policy',
     ic: 'Company ID (IČ)',
+    sidlo: 'Registered office',
     copyright: '© {year} Renata Šiserová',
   },
   whatsapp: {

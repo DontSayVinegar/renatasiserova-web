@@ -1,6 +1,6 @@
 export const cs = {
   meta: {
-    siteName: 'Renata Šiserová — realitní makléřka Praha',
+    siteName: 'Renata Šiserová - realitní makléřka Praha',
     titleSuffix: ' | Renata Šiserová',
     description:
       'Renata Šiserová, realitní makléřka RE/MAX Anděl. Prodej, koupě a pronájem nemovitostí v Praze a středních Čechách. Budete o všem vědět, ale nemusíte se o nic starat.',
@@ -20,7 +20,7 @@ export const cs = {
   hero: {
     kicker: 'Realitní makléřka · Praha & střední Čechy',
     heading: 'Prodám vaši nemovitost bezpečně, rychle a za nejlepší cenu.',
-    sub: 'Jmenuji se Renata Šiserová. Devátým rokem pomáhám lidem prodat, koupit nebo pronajmout nemovitost — s klidem, přehledem a výsledky, za kterými si stojím.',
+    sub: 'Jmenuji se Renata Šiserová. Devátým rokem pomáhám lidem prodat, koupit nebo pronajmout nemovitost - s klidem, přehledem a výsledky, za kterými si stojím.',
     cta: 'Nezávazná konzultace',
     ctaSecondary: 'Prohlédnout nemovitosti',
   },
@@ -38,7 +38,7 @@ export const cs = {
     reviewsAll: 'Všechny reference',
     processTitle: 'Jak prodávám',
     processTeaser:
-      'Prodej nemovitosti je projekt. Vedu ho za vás od první konzultace po předání klíčů — a vy budete o všem vědět, ale nemusíte se o nic starat.',
+      'Prodej nemovitosti je projekt. Vedu ho za vás od první konzultace po předání klíčů - a vy budete o všem vědět, ale nemusíte se o nic starat.',
     processCta: 'Celý postup',
     soldTicker: 'Nedávno prodáno',
     ctaTitle: 'Přemýšlíte o prodeji?',
@@ -53,7 +53,7 @@ export const cs = {
     tabSale: 'Prodej',
     tabRent: 'Pronájem',
     empty:
-      'Právě připravuji nové nabídky. Chcete prodat nemovitost? Ozvěte se mi — ráda ji připravím k prodeji jako první.',
+      'Právě připravuji nové nabídky. Chcete prodat nemovitost? Ozvěte se mi - ráda ji připravím k prodeji jako první.',
     emptyCta: 'Kontaktovat',
     sale: 'Prodej',
     rent: 'Pronájem',
@@ -91,14 +91,14 @@ export const cs = {
     title: 'Reference',
     aggregate: 'hodnocení · průměr 5/5 hvězdiček',
     source: 'Zdroj: remax-czech.cz',
-    intro: 'Hodnocení klientů z oficiálního profilu na remax-czech.cz — nezkrácená a neupravovaná.',
+    intro: 'Hodnocení klientů z oficiálního profilu na remax-czech.cz - nezkrácená a neupravovaná.',
     stars: 'hvězdiček z 5',
     cta: 'Chcete podobnou zkušenost?',
   },
   process: {
     title: 'Jak prodávám',
     intro:
-      'Prodej nemovitosti není inzerát — je to řízený projekt s jasnými kroky. Tady je přesně to, co pro vás udělám.',
+      'Prodej nemovitosti není inzerát - je to řízený projekt s jasnými kroky. Tady je přesně to, co pro vás udělám.',
     steps: [
       {
         title: 'Konzultace a odhad ceny',
@@ -114,7 +114,7 @@ export const cs = {
       },
       {
         title: 'Inzerce a prohlídky',
-        text: 'Nemovitost dostane maximální dosah — realitní portály, síť RE/MAX, moje databáze poptávek. Prohlídky vedu já a z každé máte report.',
+        text: 'Nemovitost dostane maximální dosah - realitní portály, síť RE/MAX, moje databáze poptávek. Prohlídky vedu já a z každé máte report.',
       },
       {
         title: 'Právní servis a předání',
@@ -125,7 +125,7 @@ export const cs = {
     faq: [
       {
         q: 'Kolik stojí vaše služby?',
-        a: 'Provize je vždy sjednána předem a transparentně ve smlouvě — žádné skryté poplatky. Zahrnuje kompletní servis: přípravu, prezentaci, inzerci, prohlídky i právní služby. Konkrétní výši vám řeknu na první konzultaci podle typu nemovitosti.',
+        a: 'Provize je vždy sjednána předem a transparentně ve smlouvě - žádné skryté poplatky. Zahrnuje kompletní servis: přípravu, prezentaci, inzerci, prohlídky i právní služby. Konkrétní výši vám řeknu na první konzultaci podle typu nemovitosti.',
       },
       {
         q: 'Jak dlouho trvá prodej?',
@@ -133,11 +133,11 @@ export const cs = {
       },
       {
         q: 'Už inzeruji sám. Má smysl se ozvat?',
-        a: 'Určitě. Ráda vám nezávazně řeknu, co bych udělala jinak — od ceny přes fotografie po strategii. Rozhodnutí je pak na vás.',
+        a: 'Určitě. Ráda vám nezávazně řeknu, co bych udělala jinak - od ceny přes fotografie po strategii. Rozhodnutí je pak na vás.',
       },
       {
         q: 'Pomůžete i s koupí nebo pronájmem?',
-        a: 'Ano. Zastupuji i kupující a pronajímatele — od vyhledání nemovitosti přes prověření po smlouvy a předání.',
+        a: 'Ano. Zastupuji i kupující a pronajímatele - od vyhledání nemovitosti přes prověření po smlouvy a předání.',
       },
     ],
     cta: 'Pojďme probrat vaši nemovitost',
@@ -146,9 +146,9 @@ export const cs = {
     title: 'O mně',
     kicker: 'Renata Šiserová · RE/MAX Anděl',
     story: [
-      'Než jsem vstoupila do realit, strávila jsem dvacet let v marketingu — vedla jsem značky, kampaně a týmy. Naučilo mě to jednu věc, která se v realitách ukázala jako zásadní: prodat dobře neznamená jen vystavit inzerát, ale vybudovat kolem nemovitosti příběh, který osloví správné kupce.',
-      'Devátým rokem pomáhám lidem bezpečně, rychle a za nejlepší dosažitelnou cenu prodat, koupit nebo pronajmout nemovitost. Působím v RE/MAX Anděl na pražském Smíchově — jedné z nejúspěšnějších kanceláří RE/MAX v České republice — a specializuji se na byty, domy a pozemky v Praze a středních Čechách.',
-      'Moji klienti jsou často zaneprázdnění lidé, kteří chtějí mít v realitách spolehlivého partnera — stejně jako mají svého právníka nebo daňového poradce. Proto u mě platí jednoduché pravidlo: budete o všem vědět, ale nemusíte se o nic starat.',
+      'Než jsem vstoupila do realit, strávila jsem dvacet let v marketingu - vedla jsem značky, kampaně a týmy. Naučilo mě to jednu věc, která se v realitách ukázala jako zásadní: prodat dobře neznamená jen vystavit inzerát, ale vybudovat kolem nemovitosti příběh, který osloví správné kupce.',
+      'Devátým rokem pomáhám lidem bezpečně, rychle a za nejlepší dosažitelnou cenu prodat, koupit nebo pronajmout nemovitost. Působím v RE/MAX Anděl na pražském Smíchově - jedné z nejúspěšnějších kanceláří RE/MAX v České republice - a specializuji se na byty, domy a pozemky v Praze a středních Čechách.',
+      'Moji klienti jsou často zaneprázdnění lidé, kteří chtějí mít v realitách spolehlivého partnera - stejně jako mají svého právníka nebo daňového poradce. Proto u mě platí jednoduché pravidlo: budete o všem vědět, ale nemusíte se o nic starat.',
     ],
     certsTitle: 'Certifikace a ocenění',
     officeTitle: 'Kancelář',
@@ -156,7 +156,7 @@ export const cs = {
   },
   contact: {
     title: 'Kontakt',
-    intro: 'Ozvěte se mi — telefonem, e-mailem, WhatsAppem nebo přes formulář. Odpovídám rychle.',
+    intro: 'Ozvěte se mi - telefonem, e-mailem, WhatsAppem nebo přes formulář. Odpovídám rychle.',
     form: {
       name: 'Jméno a příjmení',
       email: 'E-mail',
@@ -180,7 +180,7 @@ export const cs = {
     subject: 'Poptávka z webu renatasiserova.cz',
   },
   footer: {
-    tagline: 'Realitní makléřka RE/MAX Anděl — Praha a střední Čechy.',
+    tagline: 'Realitní makléřka RE/MAX Anděl - Praha a střední Čechy.',
     legal: 'Fyzická osoba zapsaná v živnostenském rejstříku.',
     law39:
       'Realitní zprostředkovatel ve smyslu zákona č. 39/2020 Sb. Pojištění profesní odpovědnosti sjednáno.',
@@ -188,6 +188,7 @@ export const cs = {
     cookies: 'Tento web nepoužívá cookies.',
     privacy: 'Ochrana osobních údajů',
     ic: 'IČ',
+    sidlo: 'Sídlo',
     copyright: '© {year} Renata Šiserová',
   },
   whatsapp: {

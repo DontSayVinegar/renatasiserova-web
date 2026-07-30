@@ -114,7 +114,7 @@ export async function onRequestPost(context: PagesContext): Promise<Response> {
     '',
     message,
     '',
-    '—',
+    '-',
     'Odesláno kontaktním formulářem na renatasiserova.cz',
   ]
     .filter((l) => l !== null)
@@ -137,7 +137,7 @@ export async function onRequestPost(context: PagesContext): Promise<Response> {
       from: FROM,
       to: recipients.length ? recipients : [DEFAULT_TO],
       reply_to: email,
-      subject: `${subject} — ${name}`,
+      subject: `${subject} - ${name}`,
       text,
     }),
   });

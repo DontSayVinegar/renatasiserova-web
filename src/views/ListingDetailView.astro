@@ -115,7 +115,7 @@ const jsonLd = [
             >
               <Image
                 src={resolved[0]!.meta}
-                alt={`${d.photoOf} ${title} — 1`}
+                alt={`${d.photoOf} ${title} - 1`}
                 widths={[480, 760, 1080, 1400]}
                 sizes="(min-width: 768px) 66vw, 100vw"
                 class:list={[
@@ -140,7 +140,7 @@ const jsonLd = [
                 >
                   <Image
                     src={img.meta}
-                    alt={`${d.photoOf} ${title} — ${i + 2}`}
+                    alt={`${d.photoOf} ${title} - ${i + 2}`}
                     widths={[400, 640]}
                     sizes="(min-width: 768px) 33vw, 50vw"
                     class="aspect-[4/3] h-full w-full object-cover"
@@ -160,7 +160,7 @@ const jsonLd = [
                 >
                   <Image
                     src={img.meta}
-                    alt={`${d.photoOf} ${title} — ${i + 4}`}
+                    alt={`${d.photoOf} ${title} - ${i + 4}`}
                     widths={[240, 400]}
                     sizes="(min-width: 768px) 16vw, 25vw"
                     class="aspect-[4/3] h-full w-full object-cover"
@@ -181,7 +181,7 @@ const jsonLd = [
         {
           isCzechFallback && (
             <p class="mt-4 border-l-2 border-signal bg-mist p-4 text-sm">
-              Full description is available in Czech below — happy to walk you through the details
+              Full description is available in Czech below - happy to walk you through the details
               in English, just{' '}
               <a href={route('contact', lang)} class="link-signal font-medium">
                 get in touch
@@ -200,7 +200,7 @@ const jsonLd = [
         {
           isMachineTranslated && (
             <p class="microlabel mt-6 text-ink-soft">
-              Automatic translation — Czech original on{' '}
+              Automatic translation - Czech original on{' '}
               <a
                 href={listing.sourceUrl}
                 class="link-signal"

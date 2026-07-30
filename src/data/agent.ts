@@ -9,7 +9,7 @@ export const agent = {
   region: { cs: 'Praha & střední Čechy', en: 'Prague & Central Bohemia' },
   motto: {
     cs: 'Budete o všem vědět, ale nemusíte se o nic starat.',
-    en: 'You will know about everything — and worry about nothing.',
+    en: 'You will know about everything - and worry about nothing.',
   },
 
   phone: '+420 602 601 565',
@@ -19,7 +19,15 @@ export const agent = {
 
   /** Živnostenský rejstřík / §435 obč. zák. */
   ic: '06967841',
-  // TODO before launch: confirm registered address (sídlo) from rzp.gov.cz with Renata.
+  /**
+   * Registered seat exactly as recorded in the trade register (rzp.gov.cz).
+   * §435 obč. zák. requires it on every business communication, this site
+   * included. Distinct from `office` below, which is the RE/MAX branch.
+   */
+  sidlo: {
+    street: 'Pod Klukem 655',
+    city: '267 06 Hýskov',
+  },
 
   office: {
     name: 'RE/MAX Anděl',
@@ -50,8 +58,8 @@ export const agent = {
       },
     },
     {
-      cs: 'Certifikovaný realitní makléř — CRM Level 2',
-      en: 'Certified Real Estate Agent — CRM Level 2',
+      cs: 'Certifikovaný realitní makléř - CRM Level 2',
+      en: 'Certified Real Estate Agent - CRM Level 2',
       note: {
         cs: 'Odborná certifikace RE/MAX',
         en: 'RE/MAX professional certification',

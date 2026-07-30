@@ -38,7 +38,7 @@ const t = useT(lang);
                   </span>
                   <span>
                     <strong class="font-display font-bold">{c[lang]}</strong>
-                    <span class="text-ink-soft"> — {c.note[lang]}</span>
+                    <span class="text-ink-soft"> - {c.note[lang]}</span>
                   </span>
                 </li>
               ))
@@ -64,7 +64,7 @@ const t = useT(lang);
           </div>
           <Image
             src={portraitStanding}
-            alt={`${agent.name} — ${agent.role[lang]}`}
+            alt={`${agent.name} - ${agent.role[lang]}`}
             widths={[420, 720, 1000]}
             sizes="(min-width: 1024px) 430px, 100vw"
             class="w-full border border-ink object-cover"
