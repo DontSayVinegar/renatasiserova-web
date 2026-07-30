@@ -9,7 +9,8 @@
  *   RESEND_API_KEY        — from resend.com (domain renatasiserova.cz verified)
  *   TURNSTILE_SECRET_KEY  — from Cloudflare Turnstile widget
  * Optional:
- *   CONTACT_TO            — recipient override (default: renata.siserova@re-max.cz)
+ *   CONTACT_TO            — recipient override; comma-separated for several
+ *                           (default: renata.siserova@re-max.cz)
  */
 
 interface Env {
@@ -119,6 +120,13 @@ export async function onRequestPost(context: PagesContext): Promise<Response> {
     .filter((l) => l !== null)
     .join('\n');
 
+  // CONTACT_TO may list several addresses, comma-separated. Trimming also
+  // absorbs stray whitespace a dashboard paste can leave behind.
+  const recipients = (env.CONTACT_TO ?? DEFAULT_TO)
+    .split(',')
+    .map((address) => address.trim())
+    .filter(Boolean);
+
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: {
@@ -127,7 +135,7 @@ export async function onRequestPost(context: PagesContext): Promise<Response> {
     },
     body: JSON.stringify({
       from: FROM,
-      to: [env.CONTACT_TO ?? DEFAULT_TO],
+      to: recipients.length ? recipients : [DEFAULT_TO],
       reply_to: email,
       subject: `${subject} — ${name}`,
       text,
