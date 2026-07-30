@@ -5,7 +5,6 @@ import CtaBand from '../components/CtaBand.astro';
 import { agent } from '../data/agent';
 import { useT, type Lang } from '../i18n';
 import portraitStanding from '../assets/portraits/renata-standing.jpg';
-import portraitSofa from '../assets/portraits/renata-sofa.jpg';
 
 interface Props {
   lang: Lang;
@@ -55,30 +54,29 @@ const t = useT(lang);
         </div>
       </div>
 
-      <div class="space-y-6">
-        <div class="relative">
+      <!--
+        Desktop: the portrait is taken out of flow (absolute) so its natural 2:3
+        height stops driving the grid row, then stretched to fill exactly the text
+        column's height, cropping ~8% off each side. Same trick as the home hero,
+        which caps its portrait rather than letting it set the row height. Below
+        lg it stays in flow at its natural aspect, full width.
+      -->
+      <div class="lg:relative lg:min-h-[640px]">
+        <div class="relative lg:absolute lg:inset-0">
           <div
-            class="absolute -top-2 -left-2 h-16 w-16 border-t-2 border-l-2 border-signal"
+            class="absolute -top-2 -left-2 z-10 h-16 w-16 border-t-2 border-l-2 border-signal"
             aria-hidden="true"
           >
           </div>
           <Image
             src={portraitStanding}
             alt={`${agent.name} - ${agent.role[lang]}`}
-            widths={[420, 720, 1000]}
-            sizes="(min-width: 1024px) 430px, 100vw"
-            class="w-full border border-ink object-cover"
+            widths={[470, 720, 1000, 1200]}
+            sizes="(min-width: 1024px) 470px, 100vw"
+            class="w-full border border-ink object-cover object-center lg:h-full"
             loading="eager"
           />
         </div>
-        <Image
-          src={portraitSofa}
-          alt={agent.name}
-          widths={[420, 720, 1000]}
-          sizes="(min-width: 1024px) 430px, 100vw"
-          class="w-full border border-ink object-cover"
-          loading="lazy"
-        />
       </div>
     </div>
   </section>
