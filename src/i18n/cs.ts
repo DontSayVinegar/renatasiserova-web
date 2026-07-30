@@ -48,7 +48,7 @@ export const cs = {
   },
   listings: {
     title: 'Nemovitosti',
-    intro: 'Aktuální nabídka prodeje a pronájmu. Data se denně synchronizují s RE/MAX.',
+    intro: 'Aktuální nabídka prodeje a pronájmu.',
     tabAll: 'Vše',
     tabSale: 'Prodej',
     tabRent: 'Pronájem',

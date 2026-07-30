@@ -50,7 +50,7 @@ export const en: Dictionary = {
   },
   listings: {
     title: 'Properties',
-    intro: 'Current offers for sale and rent. Data is synced daily with RE/MAX.',
+    intro: 'Current offers for sale and rent.',
     tabAll: 'All',
     tabSale: 'For sale',
     tabRent: 'For rent',
