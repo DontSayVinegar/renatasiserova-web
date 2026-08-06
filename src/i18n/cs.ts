@@ -114,11 +114,11 @@ export const cs = {
       },
       {
         title: 'Inzerce a prohlídky',
-        text: 'Nemovitost dostane maximální dosah - realitní portály, síť RE/MAX, moje databáze poptávek. Prohlídky vedu já a z každé máte report.',
+        text: 'Nemovitost dostane maximální dosah - realitní portály, síť RE/MAX, moje databáze poptávek. Prohlídky vedu já osobně.',
       },
       {
         title: 'Právní servis a předání',
-        text: 'Rezervační smlouva, kupní smlouva, úschova, katastr, předání. Vše hlídá právní servis RE/MAX a já vás provedu každým podpisem.',
+        text: 'Rezervační smlouva, kupní smlouva, úschova, katastr, předání. Vše ohlídám já a advokáti prověření RE/MAXem a provedeme vás každým podpisem.',
       },
     ],
     faqTitle: 'Časté otázky',
@@ -148,7 +148,7 @@ export const cs = {
     story: [
       'Než jsem vstoupila do realit, strávila jsem dvacet let v marketingu - vedla jsem značky, kampaně a týmy. Naučilo mě to jednu věc, která se v realitách ukázala jako zásadní: prodat dobře neznamená jen vystavit inzerát, ale vybudovat kolem nemovitosti příběh, který osloví správné kupce.',
       'Devátým rokem pomáhám lidem bezpečně, rychle a za nejlepší dosažitelnou cenu prodat, koupit nebo pronajmout nemovitost. Působím v RE/MAX Anděl na pražském Smíchově - jedné z nejúspěšnějších kanceláří RE/MAX v České republice - a specializuji se na byty, domy a pozemky v Praze a středních Čechách.',
-      'Moji klienti jsou často zaneprázdnění lidé, kteří chtějí mít v realitách spolehlivého partnera - stejně jako mají svého právníka nebo daňového poradce. Proto u mě platí jednoduché pravidlo: budete o všem vědět, ale nemusíte se o nic starat.',
+      'Moji klienti jsou často zaneprázdnění lidé, kteří chtějí mít v realitách spolehlivého partnera, stejně jako mají svého právníka nebo daňového poradce. Proto u mě platí jednoduché pravidlo: budete o všem vědět, ale nemusíte se o nic starat.',
     ],
     certsTitle: 'Certifikace a ocenění',
     officeTitle: 'Kancelář',

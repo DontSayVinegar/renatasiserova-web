@@ -117,11 +117,11 @@ export const en: Dictionary = {
       },
       {
         title: 'Marketing & viewings',
-        text: 'Your property gets maximum reach - property portals, the RE/MAX network, my own database of buyers. I run every viewing personally and report back after each one.',
+        text: 'Your property gets maximum reach - property portals, the RE/MAX network, my own database of buyers. I run every viewing personally.',
       },
       {
         title: 'Legal service & handover',
-        text: 'Reservation agreement, purchase contract, escrow, land registry, handover. Everything is overseen by RE/MAX legal services and I guide you through every signature.',
+        text: 'Reservation agreement, purchase contract, escrow, land registry, handover. I oversee it all together with RE/MAX-vetted lawyers, and we guide you through every signature.',
       },
     ],
     faqTitle: 'Frequently asked questions',
@@ -151,7 +151,7 @@ export const en: Dictionary = {
     story: [
       'Before real estate, I spent twenty years in marketing - leading brands, campaigns and teams. It taught me one thing that turned out to be essential in property: selling well is not about posting an ad, it is about building a story around a property that reaches the right buyers.',
       'For nine years I have been helping people sell, buy and rent property safely, quickly and for the best achievable price. I work at RE/MAX Anděl in Prague&#8217;s Smíchov district - one of the most successful RE/MAX offices in the Czech Republic - and specialise in apartments, houses and land in Prague and Central Bohemia.',
-      'My clients are often busy people who want a reliable partner in real estate - just as they have their lawyer or tax advisor. That is why I work by a simple rule: you will know about everything, and worry about nothing. I am happy to work with international clients in English.',
+      'My clients are often busy people who want a reliable partner in real estate, just as they have their lawyer or tax advisor. That is why I work by a simple rule: you will know about everything, and worry about nothing. I am happy to work with international clients in English.',
     ],
     certsTitle: 'Certifications & awards',
     officeTitle: 'Office',
