@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-11T03:59:20.514Z",
+  "syncedAt": "2026-08-20T03:24:29.379Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -51,7 +51,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-07-28T05:29:30.570Z"
     },
     {
@@ -100,7 +100,7 @@
         "/src/assets/listings/444245/3468255.jpg"
       ],
       "firstSeen": "2026-07-20T05:53:15.178Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-08-11T03:59:20.514Z"
     },
     {
@@ -133,27 +133,18 @@
         "district": null,
         "region": "Hlavní město Praha"
       },
-      "status": "active",
+      "status": "rented",
       "images": [
         "/src/assets/listings/444172/3480759.jpg",
         "/src/assets/listings/444172/3466231.jpg",
         "/src/assets/listings/444172/3480760.jpg",
         "/src/assets/listings/444172/3466235.jpg",
         "/src/assets/listings/444172/3466233.jpg",
-        "/src/assets/listings/444172/3466234.jpg",
-        "/src/assets/listings/444172/3466236.jpg",
-        "/src/assets/listings/444172/3466237.jpg",
-        "/src/assets/listings/444172/3466238.jpg",
-        "/src/assets/listings/444172/3466239.jpg",
-        "/src/assets/listings/444172/3466240.jpg",
-        "/src/assets/listings/444172/3466241.jpg",
-        "/src/assets/listings/444172/3466242.jpg",
-        "/src/assets/listings/444172/3466243.jpg",
-        "/src/assets/listings/444172/3466244.jpg"
+        "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
-      "statusChangedAt": "2026-07-17T05:26:38.775Z"
+      "lastSeen": "2026-08-20T03:24:29.379Z",
+      "statusChangedAt": "2026-08-20T03:24:29.379Z"
     },
     {
       "id": "441842",
@@ -166,7 +157,7 @@
         "en": "Cottage for sale, 80 m², Prague 10 - Dubeč"
       },
       "description": {
-        "cs": "Nadstandardně velký pozemek s chatou k celoročnímu bydlení\n\nNabízíme k prodeji jedinečný pozemek o celkové výměře 1 444 m² v atraktivní lokalitě Praha – Dubeč, na adrese Dubeč č.ev. 26., jehož součástí je celoročně obyvatelná chata. Celková výměra chaty činí 80 m² (zastavěná plocha) a 1 364 m² zahrada. Pozn: probíhá zápis do katastru aktuálního stavu.\nNemovitost se nachází na krásném, udržovaném a vzrostlou zelení obklopeném pozemku, který nabízí maximální soukromí, klid a příjemnou atmosféru venkovského bydlení, přestože se nachází přímo na území hlavního města Prahy. V chatě je zavedena elektřina, voda ze studny (vrt), teplá voda se ohřívá elektrickým bojlerem a teplo zajišťují krbová kamna. Na pozemku se dále nachází dílna a kryté parkovací stání pro dvě auta.\nMěstská část Praha-Dubeč nabízí kompletní občanskou vybavenost – mateřskou a základní školu, obchody, restaurace, sportoviště, dětská hřiště, zdravotní služby i pravidelné autobusové spojení na metro.\nMomentálně je tato lokalita vedena jako rezerva pro budoucí rozvoj města, mohlo by se tedy jednat i o zajímavou investiční příležitost.\nMilovníci přírody ocení blízkost rybníků, cyklostezek, lesů, které vytvářejí ideální prostředí pro relaxaci i aktivní životní styl.\nDojezd automobilem na Černý Most, Štěrboholy nebo na Pražský okruh trvá jen několik minut. Díky MHD je zajištěno pohodlné spojení na metro a do centra města.\nPokud hledáte místo, kde můžete užívat klid venkova, aniž byste se vzdali výhod hlavního města, je tato nabídka ideální právě pro vás.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
+        "cs": "Nadstandardně velký pozemek s chatou k celoročnímu bydlení\n\nNabízíme k prodeji jedinečný pozemek o celkové výměře 1 444 m² v atraktivní lokalitě Praha – Dubeč, na adrese Dubeč č.ev. 26., jehož součástí je celoročně obyvatelná chata. Celková výměra chaty činí 80 m² (zastavěná plocha) a 1 364 m² zahrada. Pozn: probíhá zápis do katastru aktuálního stavu.\nNemovitost se nachází na krásném, udržovaném a vzrostlou zelení obklopeném pozemku, který nabízí maximální soukromí, klid a příjemnou atmosféru venkovského bydlení, přestože se nachází přímo na území hlavního města Prahy. V chatě je zavedena elektřina, voda ze studny (vrt), teplá voda se ohřívá elektrickým bojlerem a teplo zajišťují krbová kamna. Na pozemku se dále nachází dílna a kryté parkovací stání pro dvě auta.\nV případě zájmu je možno koupit i s touto nemovitostí vedlejší pozemek č. 1852 s výměrou 1207m².\nMěstská část Praha-Dubeč nabízí kompletní občanskou vybavenost – mateřskou a základní školu, obchody, restaurace, sportoviště, dětská hřiště, zdravotní služby i pravidelné autobusové spojení na metro.\nMilovníci přírody ocení blízkost rybníků, cyklostezek, lesů, které vytvářejí ideální prostředí pro relaxaci i aktivní životní styl.\nDojezd automobilem na Černý Most, Štěrboholy nebo na Pražský okruh trvá jen několik minut. Díky MHD je zajištěno pohodlné spojení na metro a do centra města.\nPokud hledáte místo, kde můžete užívat klid venkova, aniž byste se vzdali výhod hlavního města, je tato nabídka ideální právě pro vás.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
         "en": null
       },
       "offerType": "sale",
@@ -197,14 +188,14 @@
         "/src/assets/listings/441842/3411872.jpg",
         "/src/assets/listings/441842/3411873.jpg",
         "/src/assets/listings/441842/3411874.jpg",
-        "/src/assets/listings/441842/3411875.jpg",
+        "/src/assets/listings/441842/3521388.jpg",
         "/src/assets/listings/441842/3411876.jpg",
         "/src/assets/listings/441842/3411877.jpg",
         "/src/assets/listings/441842/3411878.jpg",
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -247,7 +238,7 @@
         "/src/assets/listings/440743/3383998.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -298,7 +289,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -350,7 +341,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -510,7 +501,7 @@
         "/src/assets/listings/413297/2770560.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-11T03:59:20.514Z",
+      "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     }
   ]
