@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-21T03:29:29.476Z",
+  "syncedAt": "2026-08-22T03:15:24.923Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -51,7 +51,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
+      "lastSeen": "2026-08-22T03:15:24.923Z",
       "statusChangedAt": "2026-07-28T05:29:30.570Z"
     },
     {
@@ -72,7 +72,7 @@
       "propertyType": "apartment",
       "disposition": "2+1",
       "price": {
-        "amount": 19000,
+        "amount": null,
         "currency": "CZK",
         "period": "month",
         "note": null
@@ -84,24 +84,18 @@
         "district": null,
         "region": "Hlavní město Praha"
       },
-      "status": "reserved",
+      "status": "rented",
       "images": [
         "/src/assets/listings/444245/3468241.jpg",
         "/src/assets/listings/444245/3468244.jpg",
         "/src/assets/listings/444245/3468242.jpg",
         "/src/assets/listings/444245/3468245.jpg",
         "/src/assets/listings/444245/3468246.jpg",
-        "/src/assets/listings/444245/3468247.jpg",
-        "/src/assets/listings/444245/3468248.jpg",
-        "/src/assets/listings/444245/3468250.jpg",
-        "/src/assets/listings/444245/3468251.jpg",
-        "/src/assets/listings/444245/3468256.jpg",
-        "/src/assets/listings/444245/3468254.jpg",
-        "/src/assets/listings/444245/3468255.jpg"
+        "/src/assets/listings/444245/3468247.jpg"
       ],
       "firstSeen": "2026-07-20T05:53:15.178Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
-      "statusChangedAt": "2026-08-11T03:59:20.514Z"
+      "lastSeen": "2026-08-22T03:15:24.923Z",
+      "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
       "id": "444172",
@@ -133,18 +127,27 @@
         "district": null,
         "region": "Hlavní město Praha"
       },
-      "status": "rented",
+      "status": "reserved",
       "images": [
         "/src/assets/listings/444172/3480759.jpg",
         "/src/assets/listings/444172/3466231.jpg",
         "/src/assets/listings/444172/3480760.jpg",
         "/src/assets/listings/444172/3466235.jpg",
         "/src/assets/listings/444172/3466233.jpg",
-        "/src/assets/listings/444172/3466234.jpg"
+        "/src/assets/listings/444172/3466234.jpg",
+        "/src/assets/listings/444172/3466236.jpg",
+        "/src/assets/listings/444172/3466237.jpg",
+        "/src/assets/listings/444172/3466238.jpg",
+        "/src/assets/listings/444172/3466239.jpg",
+        "/src/assets/listings/444172/3466240.jpg",
+        "/src/assets/listings/444172/3466241.jpg",
+        "/src/assets/listings/444172/3466242.jpg",
+        "/src/assets/listings/444172/3466243.jpg",
+        "/src/assets/listings/444172/3466244.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
-      "statusChangedAt": "2026-08-20T03:24:29.379Z"
+      "lastSeen": "2026-08-22T03:15:24.923Z",
+      "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
       "id": "441842",
@@ -195,7 +198,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
+      "lastSeen": "2026-08-22T03:15:24.923Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -233,6 +236,49 @@
       "firstSeen": "2026-07-06T12:40:43.329Z",
       "lastSeen": "2026-08-20T03:24:29.379Z",
       "statusChangedAt": "2026-08-21T03:29:29.476Z"
+    },
+    {
+      "id": "433768",
+      "ref": "218-NP06990",
+      "slug": "prodej-bytu-2-1-v-osobnim-vlastnictvi-53-m2-praha-3-zizkov",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/433768/prodej-bytu-2-1-v-osobnim-vlastnictvi-53-m2-praha-3-zizkov",
+      "title": {
+        "cs": "Prodej bytu 2+1 v osobním vlastnictví 53 m², Praha 3 - Žižkov",
+        "en": "Apartment for sale, 2+1, 53 m², Prague 3 - Žižkov"
+      },
+      "description": {
+        "cs": "Prodej bytu 2+1 s balkonem a sklepem v klidné části Žižkova\n\nNabízíme k prodeji byt o dispozici 2+1 a výměře 53m² + balkon 2m² v ulici Pod Lipami, Praha 3 – Žižkov. Byt je umístěn ve 3.NP a obývací pokoj s balkonem je orientovaný na jih.\nByt je určen k úplné rekonstrukci, což představuje ideální příležitost vytvořit si bydlení přesně podle vlastních představ a potřeb. Díky původnímu stavu nabízí byt maximální flexibilitu při úpravách interiéru.\nV domě je výtah, proběhla výměna oken a revitalizace balkonů, aktuálně probíhá modernizace společných elektroinstalací.\nLokalita Žižkova je dlouhodobě vyhledávaná pro svou atmosféru a kompletní občanskou vybavenost. V docházkové vzdálenosti se nachází obchody, restaurace, kavárny, školy i zdravotnická zařízení. Spojení MHD ze zastávky Spojovací umožňuje dostupnost do centra Prahy do 20 minut.\nMilovníci aktivního života ocení blízkost parků a zeleně, například parku Krejcárek nebo Vítkov, které nabízejí prostor pro sport, procházky i relaxaci s výhledem na město.\nPoznámka: Fotografie s nábytkem v inzerci jsou jen vizualizace pro inspiraci.\nPro více informací či domluvení prohlídky mě neváhejte kontaktovat.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "sale",
+      "propertyType": "apartment",
+      "disposition": "2+1",
+      "price": {
+        "amount": null,
+        "currency": "CZK",
+        "period": "once",
+        "note": null
+      },
+      "areaM2": 53,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Praha 3 - Žižkov",
+        "district": null,
+        "region": "Hlavní město Praha"
+      },
+      "status": "sold",
+      "images": [
+        "/src/assets/listings/433768/3224368.jpg",
+        "/src/assets/listings/433768/3224367.jpg",
+        "/src/assets/listings/433768/3224370.jpg",
+        "/src/assets/listings/433768/3224369.jpg",
+        "/src/assets/listings/433768/3224371.jpg",
+        "/src/assets/listings/433768/3224372.jpg"
+      ],
+      "firstSeen": "2026-08-22T03:15:24.923Z",
+      "lastSeen": "2026-08-22T03:15:24.923Z",
+      "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
       "id": "425734",
@@ -282,7 +328,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
+      "lastSeen": "2026-08-22T03:15:24.923Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -334,7 +380,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
+      "lastSeen": "2026-08-22T03:15:24.923Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -494,7 +540,7 @@
         "/src/assets/listings/413297/2770560.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-08-21T03:29:29.476Z",
+      "lastSeen": "2026-08-22T03:15:24.923Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     }
   ]
