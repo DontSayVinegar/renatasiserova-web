@@ -1,7 +1,56 @@
 {
-  "syncedAt": "2026-09-08T07:21:32.761Z",
+  "syncedAt": "2026-09-11T07:24:32.597Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "448026",
+      "ref": "218-NP07421",
+      "slug": "prodej-domu-206-m2-jesenice",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/448026/prodej-domu-206-m2-jesenice",
+      "title": {
+        "cs": "Prodej domu 206 m², Jesenice",
+        "en": "House for sale, 206 m², Jesenice"
+      },
+      "description": {
+        "cs": "Prodej moderního rodinného domu s nadstandardními technologiemi a s energetickou třídou A\n\nExkluzivně nabízíme k prodeji  nový moderní rodinný dům v klidné rezidenční lokalitě Zdiměřice u Prahy s dispozicí 6+kk. Dům navrhnul pan Ing.arch.Jiří Záhořák a nabízí to nejlepší z moderní funkcionalistické architektury- promyšlené dispozice, příjemné propojení interiéru se zahradou a terasou, dostatek světla díky velkorysým francouzským oknům a propojení obou pater prostornou galerií.\nInteriér je funkčně navržen, tak aby nabídl dostatek úložného prostoru,  komfortu a zároveň zbytečně neplýtval hluchými místy. Dřevěné podlahy ( které budou položeny) a pohledové betonové stropy znamenají nadčasový design a dovolují každému zařídit interiér domu dle vlastních představ. V domě najdete velkorysý obývací prostor s kuchyňským koutem otevřený do zahrady, pět dalších pokojů z toho dva v 1.NP mají svou koupelnu ( dohromady 3 koupelny a 2 samostatné WC) prostornou a světlou galerii ideální jako pracovní kout či knihovna, hobby místnost.\nTechnologie domu jsou zvoleny s důrazem na zajištění komfortu jeho obyvatel, udržitelnosti a dlouhodobě nízké náklady. Dům je připraven zvládat budoucí klimatické výzvy. Za zmínku stojí tepelné čerpadlo země-voda s technologií Daikin, aktivní stropy, které v letních měsících chladí, okna Heroal s bezpečnostní fólií, rekuperace, centrální vysavač, příprava na fotovoltaiku apod. Samozřejmostí jsou 4 parkovací stání z toho 2 kryté pod betonovou markýzou, která zajistí pohyb mezi autem a vchodem suchou nohou za každého počasí. Výsledkem je nadčasový moderní domov s technologiemi, který vybočuje mimo hranice běžné výstavby.\nZdiměřice patří k vyhledávaným adresám v okolí metropole, najdete zde zástavbu nadstandardních rodinných domů, všudypřítomnou zeleň, a přitom máte hlavní město doslova na dosah ruky.\nJedním z největších lákadel lokality je sousedství Průhonického parku, zapsaného na seznamu UNESCO. Okolní krajina přímo vybízí k procházkám do lesů i k parku a obcí prochází cyklostezka Praha–Vídeň. Zdiměřice tak nabízejí vzácnou kombinaci: klid a přírodu, spolu s rychlým a pohodlným spojením do centra Prahy.\nV těsné blízkosti  ulice Malebná stojí nová státní základní škola i oblíbená soukromá Sunny Canadian International School, dále mateřská škola a gymnázium. Kompletní nabídku škol a školek doplňuje sousední Jesenice, kde je i základní umělecká škola.\nSpojení do Prahy zajišťují linky PID (např. 327 a 428) na stanice Opatov, Háje, Kačerov a Budějovická. Autem do centra Prahy cca 20 minut, v blízkosti napojení na Pražský okruh (D0) a nájezd na D1.\nNeváhejte mě kontaktovat pro  více informací.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "sale",
+      "propertyType": "house",
+      "disposition": null,
+      "price": {
+        "amount": 45000000,
+        "currency": "CZK",
+        "period": "once",
+        "note": null
+      },
+      "areaM2": 206,
+      "landAreaM2": 1232,
+      "location": {
+        "municipality": "Jesenice",
+        "district": "Malebná",
+        "region": "Středočeský kraj"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/448026/3556218.jpg",
+        "/src/assets/listings/448026/3556219.jpg",
+        "/src/assets/listings/448026/3556220.jpg",
+        "/src/assets/listings/448026/3556221.jpg",
+        "/src/assets/listings/448026/3556223.jpg",
+        "/src/assets/listings/448026/3556222.jpg",
+        "/src/assets/listings/448026/3556226.jpg",
+        "/src/assets/listings/448026/3556224.jpg",
+        "/src/assets/listings/448026/3556225.jpg",
+        "/src/assets/listings/448026/3556227.jpg",
+        "/src/assets/listings/448026/3556228.jpg",
+        "/src/assets/listings/448026/3556229.jpg"
+      ],
+      "firstSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "statusChangedAt": "2026-09-11T07:24:32.597Z"
+    },
     {
       "id": "444819",
       "ref": "218-NP07318",
@@ -51,7 +100,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-07-28T05:29:30.570Z"
     },
     {
@@ -94,7 +143,7 @@
         "/src/assets/listings/444245/3468247.jpg"
       ],
       "firstSeen": "2026-07-20T05:53:15.178Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
@@ -182,7 +231,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -261,7 +310,7 @@
         "/src/assets/listings/433768/3224372.jpg"
       ],
       "firstSeen": "2026-08-22T03:15:24.923Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
@@ -312,7 +361,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -364,7 +413,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -488,7 +537,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-08T07:21:32.761Z",
+      "lastSeen": "2026-09-11T07:24:32.597Z",
       "statusChangedAt": "2026-09-08T07:21:32.761Z"
     },
     {
