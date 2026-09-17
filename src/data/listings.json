@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T07:24:32.597Z",
+  "syncedAt": "2026-09-17T07:54:09.829Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -48,7 +48,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-09-11T07:24:32.597Z"
     },
     {
@@ -100,7 +100,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-07-28T05:29:30.570Z"
     },
     {
@@ -143,7 +143,7 @@
         "/src/assets/listings/444245/3468247.jpg"
       ],
       "firstSeen": "2026-07-20T05:53:15.178Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
@@ -164,7 +164,7 @@
       "propertyType": "apartment",
       "disposition": "3+kk",
       "price": {
-        "amount": 38000,
+        "amount": null,
         "currency": "CZK",
         "period": "month",
         "note": null
@@ -176,11 +176,18 @@
         "district": null,
         "region": "Hlavní město Praha"
       },
-      "status": "archived",
-      "images": [],
+      "status": "rented",
+      "images": [
+        "/src/assets/listings/444172/3480759.jpg",
+        "/src/assets/listings/444172/3466231.jpg",
+        "/src/assets/listings/444172/3480760.jpg",
+        "/src/assets/listings/444172/3466235.jpg",
+        "/src/assets/listings/444172/3466233.jpg",
+        "/src/assets/listings/444172/3466234.jpg"
+      ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-08-27T12:58:41.276Z",
-      "statusChangedAt": "2026-08-28T14:29:35.435Z"
+      "lastSeen": "2026-09-17T07:54:09.829Z",
+      "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
       "id": "441842",
@@ -231,7 +238,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -310,7 +317,7 @@
         "/src/assets/listings/433768/3224372.jpg"
       ],
       "firstSeen": "2026-08-22T03:15:24.923Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
@@ -361,7 +368,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -413,7 +420,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -537,7 +544,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-09-11T07:24:32.597Z",
+      "lastSeen": "2026-09-17T07:54:09.829Z",
       "statusChangedAt": "2026-09-08T07:21:32.761Z"
     },
     {
