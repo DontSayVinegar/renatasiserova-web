@@ -52,7 +52,7 @@ const metaBits = [
 
 <article class="group relative border border-ink bg-paper">
   <a href={listingUrl(listing.slug, lang)} class="block focus-visible:outline-offset-[-2px]">
-    <div class="relative aspect-[4/3] overflow-hidden border-b border-ink">
+    <div class="relative aspect-[3/2] overflow-hidden border-b border-ink">
       {
         cover ? (
           <Image
@@ -61,7 +61,7 @@ const metaBits = [
             widths={[400, 640, 880]}
             sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
             class:list={[
-              'h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]',
+              'h-full w-full object-cover object-left-top origin-top-left transition-transform duration-500 group-hover:scale-[1.02]',
               isDone && 'grayscale-[0.4]',
             ]}
             loading={eager ? 'eager' : 'lazy'}

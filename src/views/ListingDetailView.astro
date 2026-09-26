@@ -119,7 +119,7 @@ const jsonLd = [
                 widths={[480, 760, 1080, 1400]}
                 sizes="(min-width: 768px) 66vw, 100vw"
                 class:list={[
-                  'aspect-[4/3] h-full w-full object-cover',
+                  'aspect-[3/2] h-full w-full object-cover object-left-top',
                   isDone && 'grayscale-[0.35]',
                 ]}
                 loading="eager"
@@ -143,7 +143,7 @@ const jsonLd = [
                     alt={`${d.photoOf} ${title} - ${i + 2}`}
                     widths={[400, 640]}
                     sizes="(min-width: 768px) 33vw, 50vw"
-                    class="aspect-[4/3] h-full w-full object-cover"
+                    class="aspect-[3/2] h-full w-full object-cover object-left-top"
                     loading="lazy"
                   />
                 </button>
@@ -163,7 +163,7 @@ const jsonLd = [
                     alt={`${d.photoOf} ${title} - ${i + 4}`}
                     widths={[240, 400]}
                     sizes="(min-width: 768px) 16vw, 25vw"
-                    class="aspect-[4/3] h-full w-full object-cover"
+                    class="aspect-[3/2] h-full w-full object-cover object-left-top"
                     loading="lazy"
                   />
                 </button>
