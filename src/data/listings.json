@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-05T09:25:44.648Z",
+  "syncedAt": "2026-10-06T09:12:38.312Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -13,7 +13,7 @@
         "en": "Apartment for rent, 2+kk, 73 m², Prague 8 - Karlín"
       },
       "description": {
-        "cs": "Pronájem moderního bytu 2+kk s balkonem a parkovacím stáním – River Diamond, Praha Karlín\n\nNabízíme k pronájmu světlý a prakticky řešený byt 2+kk o celkové ploše cca 68,6 m² s balkonem 4m², vnitřním parkovacím stáním a sklepem 4,8m² situovaný v prestižním rezidenčním projektu River Diamond.\nByt disponuje obývacím pokojem s kuchyňským koutem, ložnicí, koupelnou s vanou, samostatným WC a vstupní halou. Z ložnice a z obývacího pokoje je vstup na balkon, který je orientovaný do klidného vnitrobloku.\nProjekt River Diamond je známý svým nadčasovým designem, kvalitním provedením a vysokým standardem bydlení. Rezidence nabízí 24/7 recepci, ostrahu, udržované společné prostory a uzavřený vnitroblok se zelení, který zajišťuje maximální soukromí a klid.\nKarlín patří mezi nejžádanější a nejdynamičtěji se rozvíjející části Prahy. V bezprostředním okolí najdete širokou nabídku restaurací, kaváren, bister i obchodů, stejně jako fitness centra a služby.\nCyklostezka podél Vltavy, park Vítkov nebo Rohanský ostrov jsou ideální pro sport i relaxaci.\nSkvělá dopravní dostupnost – stanice metra B Křižíkova i tramvajové linky jsou v docházkové vzdálenosti.\nMěsíční nájemné činí 34 000,- Kč, poplatky za služby 6 700,- Kč a vratná kauce je stanovena ve výši 70 000,- Kč. Elektřina bude převedena na nájemce.\nNeváhejte mě kontaktovat, ráda Vás touto nemovitostí provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "cs": "Pronájem moderního bytu 2+kk s balkonem a parkovacím stáním – River Diamond, Praha Karlín\n\nNabízíme k pronájmu světlý a prakticky řešený byt 2+kk o celkové ploše cca 68,6 m² s balkonem 4m², vnitřním parkovacím stáním a sklepem 4,8m² situovaný v prestižním rezidenčním projektu River Diamond.\nByt disponuje obývacím pokojem s kuchyňským koutem, ložnicí, koupelnou s vanou, samostatným WC a vstupní halou. Z ložnice a z obývacího pokoje je vstup na balkon, který je orientovaný do klidného vnitrobloku.\nProjekt River Diamond je známý svým nadčasovým designem, kvalitním provedením a vysokým standardem bydlení. Rezidence nabízí 24/7 recepci, ostrahu, udržované společné prostory a uzavřený vnitroblok se zelení, který zajišťuje maximální soukromí a klid.\nKarlín patří mezi nejžádanější a nejdynamičtěji se rozvíjející části Prahy. V bezprostředním okolí najdete širokou nabídku restaurací, kaváren, bister i obchodů, stejně jako fitness centra a služby.\nCyklostezka podél Vltavy, park Vítkov nebo Rohanský ostrov jsou ideální pro sport i relaxaci.\nSkvělá dopravní dostupnost – stanice metra B Křižíkova i tramvajové linky jsou v docházkové vzdálenosti.\nMěsíční nájemné činí 34 000,- Kč, poplatky za služby 6 700,- Kč a vratná kauce je stanovena ve výši 70 000,- Kč. Elektřina bude převedena na nájemce. Nájem je možný od 1.12.2026.\nNeváhejte mě kontaktovat, ráda Vás touto nemovitostí provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
         "en": null
       },
       "offerType": "rent",
@@ -51,7 +51,7 @@
         "/src/assets/listings/448705/3570395.jpg"
       ],
       "firstSeen": "2026-09-18T07:32:28.761Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-09-18T07:32:28.761Z"
     },
     {
@@ -100,7 +100,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-09-11T07:24:32.597Z"
     },
     {
@@ -152,7 +152,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-07-28T05:29:30.570Z"
     },
     {
@@ -195,7 +195,7 @@
         "/src/assets/listings/444245/3468247.jpg"
       ],
       "firstSeen": "2026-07-20T05:53:15.178Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
@@ -238,7 +238,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -290,7 +290,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -369,7 +369,7 @@
         "/src/assets/listings/433768/3224372.jpg"
       ],
       "firstSeen": "2026-08-22T03:15:24.923Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-08-22T03:15:24.923Z"
     },
     {
@@ -457,7 +457,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -581,7 +581,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-05T09:25:44.648Z",
+      "lastSeen": "2026-10-06T09:12:38.312Z",
       "statusChangedAt": "2026-09-08T07:21:32.761Z"
     },
     {
