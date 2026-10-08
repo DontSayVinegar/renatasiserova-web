@@ -1,10 +1,19 @@
 {
-  "syncedAt": "2026-07-06T17:35:29.696Z",
+  "syncedAt": "2026-10-08T09:18:25.230Z",
   "aggregate": {
-    "count": 50,
+    "count": 51,
     "average": 5
   },
   "reviews": [
+    {
+      "id": "2274d8903eb9",
+      "rating": 5,
+      "text": {
+        "cs": "vše na čem jsem se domluvili, vždy platilo a informace byly vždy včasné a úplné",
+        "en": null
+      },
+      "sourceUrl": "https://www.remax-czech.cz/reality/re-max-andel/renata-siserova/"
+    },
     {
       "id": "56a4eb59dfb0",
       "rating": 5,
