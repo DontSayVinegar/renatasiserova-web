@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T07:49:48.958Z",
+  "syncedAt": "2026-10-21T07:53:36.205Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -51,7 +51,7 @@
         "/src/assets/listings/448705/3570395.jpg"
       ],
       "firstSeen": "2026-09-18T07:32:28.761Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-09-18T07:32:28.761Z"
     },
     {
@@ -100,7 +100,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-09-11T07:24:32.597Z"
     },
     {
@@ -152,7 +152,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-10-15T07:38:27.731Z"
     },
     {
@@ -231,7 +231,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -252,7 +252,7 @@
       "propertyType": "house",
       "disposition": null,
       "price": {
-        "amount": 8490000,
+        "amount": 8190000,
         "currency": "CZK",
         "period": "once",
         "note": null
@@ -283,7 +283,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -406,7 +406,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-10-14T07:53:16.454Z"
     },
     {
@@ -458,7 +458,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -582,7 +582,7 @@
         "/src/assets/listings/414615/2802765.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-20T07:49:48.958Z",
+      "lastSeen": "2026-10-21T07:53:36.205Z",
       "statusChangedAt": "2026-09-08T07:21:32.761Z"
     },
     {
