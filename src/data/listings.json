@@ -1,7 +1,59 @@
 {
-  "syncedAt": "2026-10-21T07:53:36.205Z",
+  "syncedAt": "2026-10-31T08:39:12.459Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "452037",
+      "ref": "218-NP07521",
+      "slug": "prodej-bytu-1-kk-v-osobnim-vlastnictvi-41-m2-abertamy",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/452037/prodej-bytu-1-kk-v-osobnim-vlastnictvi-41-m2-abertamy",
+      "title": {
+        "cs": "Prodej bytu 1+kk v osobním vlastnictví 41 m², Abertamy",
+        "en": "Apartment for sale, 1+kk, 41 m², Abertamy"
+      },
+      "description": {
+        "cs": "Prodej bytu 1+kk v Abertamech\n\nNabízíme vám jedinečnou příležitost pořídit si nový a plně vybavený apartmán v srdci Krušných hor – přímo na malebném náměstí horského městečka Abertamy.\nTento stylový apartmán o dispozici 1+kk je ideální volbou pro páry nebo jednotlivce hledající kombinaci investice s možností vlastního využití během celého roku. Komfort, kvalitní vybavení, výhledy na Plešivec a perfektní umístění jen pár minut od sjezdovek, běžkařských tratí a turistických tras.\n\nCo vás nadchne:\n• plně vybavený interiér – designový nábytek, kuchyň, spotřebiče i dekorace v ceně\n• společná sauna pro majitele domu – ideální po dni na horách\n• moderní lyžárna – bezpečné a pohodlné zázemí pro sportovní vybavení\n• okamžitý přístup do přírody – hory, lesy, běžkařské trasy a lyže za rohem\n• Boží Dar a Klínovec do 15 minut autem\n\nApartmán (bytová jednotka) o dispozici 1+kk a celkové ploše 41 m² se nachází v novém bytovém domě Abertamy Platz , ve 3. patře s výtahem. Je plně vybavený a připraven k okamžitému nastěhování. Celý bytový dům vznikl kompletní rekonstrukcí bývalého hotelu v roce 2023.\nNeváhejte se na mě obrátit, ráda Vás touto úžasnou nemovitostí provedu.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "sale",
+      "propertyType": "apartment",
+      "disposition": "1+kk",
+      "price": {
+        "amount": 4990000,
+        "currency": "CZK",
+        "period": "once",
+        "note": null
+      },
+      "areaM2": 41,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Abertamy",
+        "district": "Karlovy Vary",
+        "region": "Karlovarský kraj"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/452037/3643511.jpg",
+        "/src/assets/listings/452037/3643510.jpg",
+        "/src/assets/listings/452037/3643497.jpg",
+        "/src/assets/listings/452037/3643496.jpg",
+        "/src/assets/listings/452037/3643495.jpg",
+        "/src/assets/listings/452037/3643498.jpg",
+        "/src/assets/listings/452037/3643512.jpg",
+        "/src/assets/listings/452037/3643513.jpg",
+        "/src/assets/listings/452037/3643514.jpg",
+        "/src/assets/listings/452037/3643499.jpg",
+        "/src/assets/listings/452037/3643500.jpg",
+        "/src/assets/listings/452037/3643501.jpg",
+        "/src/assets/listings/452037/3643503.jpg",
+        "/src/assets/listings/452037/3643504.jpg",
+        "/src/assets/listings/452037/3643506.jpg"
+      ],
+      "firstSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "statusChangedAt": "2026-10-31T08:39:12.459Z"
+    },
     {
       "id": "448705",
       "ref": "218-NP07433",
@@ -32,27 +84,11 @@
         "district": null,
         "region": "Hlavní město Praha"
       },
-      "status": "active",
-      "images": [
-        "/src/assets/listings/448705/3570397.jpg",
-        "/src/assets/listings/448705/3570384.jpg",
-        "/src/assets/listings/448705/3570382.jpg",
-        "/src/assets/listings/448705/3570383.jpg",
-        "/src/assets/listings/448705/3570385.jpg",
-        "/src/assets/listings/448705/3570386.jpg",
-        "/src/assets/listings/448705/3570387.jpg",
-        "/src/assets/listings/448705/3570388.jpg",
-        "/src/assets/listings/448705/3570389.jpg",
-        "/src/assets/listings/448705/3570390.jpg",
-        "/src/assets/listings/448705/3570391.jpg",
-        "/src/assets/listings/448705/3570392.jpg",
-        "/src/assets/listings/448705/3570393.jpg",
-        "/src/assets/listings/448705/3570394.jpg",
-        "/src/assets/listings/448705/3570395.jpg"
-      ],
+      "status": "archived",
+      "images": [],
       "firstSeen": "2026-09-18T07:32:28.761Z",
       "lastSeen": "2026-10-21T07:53:36.205Z",
-      "statusChangedAt": "2026-09-18T07:32:28.761Z"
+      "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
       "id": "448026",
@@ -100,7 +136,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-10-21T07:53:36.205Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
       "statusChangedAt": "2026-09-11T07:24:32.597Z"
     },
     {
@@ -152,7 +188,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-10-21T07:53:36.205Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
       "statusChangedAt": "2026-10-15T07:38:27.731Z"
     },
     {
@@ -231,7 +267,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-10-21T07:53:36.205Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -283,7 +319,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-21T07:53:36.205Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -406,7 +442,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-21T07:53:36.205Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
       "statusChangedAt": "2026-10-14T07:53:16.454Z"
     },
     {
@@ -458,7 +494,7 @@
         "/src/assets/listings/419828/2923278.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-21T07:53:36.205Z",
+      "lastSeen": "2026-10-31T08:39:12.459Z",
       "statusChangedAt": "2026-07-06T12:40:43.329Z"
     },
     {
@@ -563,27 +599,11 @@
         "district": "Karlovy Vary",
         "region": "Karlovarský kraj"
       },
-      "status": "active",
-      "images": [
-        "/src/assets/listings/414615/2802770.jpg",
-        "/src/assets/listings/414615/2802769.jpg",
-        "/src/assets/listings/414615/2802756.jpg",
-        "/src/assets/listings/414615/2802755.jpg",
-        "/src/assets/listings/414615/2802754.jpg",
-        "/src/assets/listings/414615/2802757.jpg",
-        "/src/assets/listings/414615/2802771.jpg",
-        "/src/assets/listings/414615/2802772.jpg",
-        "/src/assets/listings/414615/2802773.jpg",
-        "/src/assets/listings/414615/2802758.jpg",
-        "/src/assets/listings/414615/2802759.jpg",
-        "/src/assets/listings/414615/2802760.jpg",
-        "/src/assets/listings/414615/2802762.jpg",
-        "/src/assets/listings/414615/2802763.jpg",
-        "/src/assets/listings/414615/2802765.jpg"
-      ],
+      "status": "archived",
+      "images": [],
       "firstSeen": "2026-07-06T12:40:43.329Z",
       "lastSeen": "2026-10-21T07:53:36.205Z",
-      "statusChangedAt": "2026-09-08T07:21:32.761Z"
+      "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
       "id": "413297",
