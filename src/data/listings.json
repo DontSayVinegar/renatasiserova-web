@@ -1,7 +1,59 @@
 {
-  "syncedAt": "2026-10-31T08:39:12.459Z",
+  "syncedAt": "2026-11-02T09:46:18.922Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "452124",
+      "ref": "218-NP07524",
+      "slug": "prodej-chaty-chalupy-250-m2-rokytnice-nad-jizerou",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/452124/prodej-chaty-chalupy-250-m2-rokytnice-nad-jizerou",
+      "title": {
+        "cs": "Prodej chaty / chalupy 250 m², Rokytnice nad Jizerou",
+        "en": "Cottage for sale, 250 m², Rokytnice nad Jizerou"
+      },
+      "description": {
+        "cs": "Pečlivě udržovaná chalupa s úchvatným výhledem a rozlehlým pozemkem\n\nHledáte místo, kde se snoubí poctivá horská atmosféra s komfortem celoročního bydlení? Nabízíme výjimečnou nemovitost s číslem popisným v malebné obci Hranice, přímo nad Rokytnicí nad Jizerou, v Krkonošském národním parku  (KRNAP). Tato prostorná chalupa o užitné ploše cca 250 m² + 50 m² dřevěná terasa se nachází na nádherném slunném místě s dechberoucím výhledem do údolí a přírody Krkonoš.\nNemovitost je zděná a je ve výborném technickém stavu. Z dřevěné terasy Vás čekají nádherné výhledy během celého roku včetně romantických západů slunce. Kvalitní dřevěné podlahy a stropy, zakázkový nábytek z masivu a stylová kamna dodávají interiéru osobitý styl a zároveň zaručují dlouhou životnost a minimální potřebu údržby. Chalupa je plně celoročně obyvatelná, ideální jak pro rodinné rekreační využití, tak i pro trvalé bydlení či podnikání v oblasti turismu. Chalupa nebyla nikdy pronajímána a sloužila pouze k rodinné rekreaci.\nKlíčové přednosti:\n•\tPozemek o výměře přes 6 500 m² – nabízí absolutní soukromí\n•\tKvalitní stavba a interiér – zděná stavba a interiér z masivu\n•\tPřístup po obecní komunikaci\n•\tPanoramatický výhled do údolí\n•\tVynikající lokalita – blízkost ski areálů v Rokytnici nad Jizerou, turistické trasy, běžkařské stopy, cyklostezky i restaurace a obchody\nChalupa nabízí velké množství prostoru nejen v obytné části, kde je velký obývací pokoj s kuchyňským koutem a kamny a ve 2.np velké tři pokoje (viz orientační půdorysy) ale i v technickém  zázemí –  kde najdete dvě garáže, kamennou spíž, technickou místnost s elektrickým kotlem, pračkou a bojlerem. Objekt je vybaven zabezpečovacím systémem a napojen na PCO (pult centrální ochrany).\nRokytnice nad Jizerou patří mezi největší a nejpopulárnější horská střediska v Krkonoších. V zimě nabízí vynikající podmínky pro lyžování – ve Skiareálu Rokytnice najdete více než 18 km sjezdových tratí všech obtížností.\nMilovníci běžek ocení upravené běžkařské tratě napojené na Krkonošskou magistrálu, v létě je oblast ideální pro cyklistiku nebo horskou turistiku.\nVe městě najdete kompletní občanskou vybavenost – obchody, restaurace, kavárny, lyžařské a cyklistické půjčovny, školy, zdravotní středisko i kulturní akce během celého roku.\nV případě zájmu mohu zaslat odkaz na online prohlídku ( matterport).\nNeváhejte mě kontaktovat, ráda Vás touto úžasnou nemovitostí provedu.\nProdávající si vyhrazuje právo vybrat kupujícího na základě jím zvolených kritérií.",
+        "en": null
+      },
+      "offerType": "sale",
+      "propertyType": "house",
+      "disposition": null,
+      "price": {
+        "amount": null,
+        "currency": "CZK",
+        "period": "once",
+        "note": null
+      },
+      "areaM2": 250,
+      "landAreaM2": 6609,
+      "location": {
+        "municipality": "Rokytnice nad Jizerou",
+        "district": "Semily",
+        "region": "Liberecký kraj"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/452124/3645686.jpg",
+        "/src/assets/listings/452124/3645687.jpg",
+        "/src/assets/listings/452124/3645695.jpg",
+        "/src/assets/listings/452124/3645694.jpg",
+        "/src/assets/listings/452124/3645696.jpg",
+        "/src/assets/listings/452124/3645698.jpg",
+        "/src/assets/listings/452124/3645688.jpg",
+        "/src/assets/listings/452124/3645689.jpg",
+        "/src/assets/listings/452124/3645690.jpg",
+        "/src/assets/listings/452124/3645691.jpg",
+        "/src/assets/listings/452124/3645692.jpg",
+        "/src/assets/listings/452124/3645693.jpg",
+        "/src/assets/listings/452124/3645697.jpg",
+        "/src/assets/listings/452124/3645699.jpg",
+        "/src/assets/listings/452124/3645700.jpg"
+      ],
+      "firstSeen": "2026-11-02T09:46:18.922Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
+      "statusChangedAt": "2026-11-02T09:46:18.922Z"
+    },
     {
       "id": "452037",
       "ref": "218-NP07521",
@@ -51,7 +103,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -136,7 +188,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
       "statusChangedAt": "2026-09-11T07:24:32.597Z"
     },
     {
@@ -188,7 +240,7 @@
         "/src/assets/listings/444819/3487901.jpg"
       ],
       "firstSeen": "2026-07-28T05:29:30.570Z",
-      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
       "statusChangedAt": "2026-10-15T07:38:27.731Z"
     },
     {
@@ -267,7 +319,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -319,7 +371,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -442,7 +494,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-10-31T08:39:12.459Z",
+      "lastSeen": "2026-11-02T09:46:18.922Z",
       "statusChangedAt": "2026-10-14T07:53:16.454Z"
     },
     {
@@ -475,27 +527,11 @@
         "district": "Semily",
         "region": "Liberecký kraj"
       },
-      "status": "active",
-      "images": [
-        "/src/assets/listings/419828/2923264.jpg",
-        "/src/assets/listings/419828/2923273.jpg",
-        "/src/assets/listings/419828/2923272.jpg",
-        "/src/assets/listings/419828/2923274.jpg",
-        "/src/assets/listings/419828/2923276.jpg",
-        "/src/assets/listings/419828/2923263.jpg",
-        "/src/assets/listings/419828/2923265.jpg",
-        "/src/assets/listings/419828/2923266.jpg",
-        "/src/assets/listings/419828/2923268.jpg",
-        "/src/assets/listings/419828/2923269.jpg",
-        "/src/assets/listings/419828/2923270.jpg",
-        "/src/assets/listings/419828/2923271.jpg",
-        "/src/assets/listings/419828/2923275.jpg",
-        "/src/assets/listings/419828/2923277.jpg",
-        "/src/assets/listings/419828/2923278.jpg"
-      ],
+      "status": "archived",
+      "images": [],
       "firstSeen": "2026-07-06T12:40:43.329Z",
       "lastSeen": "2026-10-31T08:39:12.459Z",
-      "statusChangedAt": "2026-07-06T12:40:43.329Z"
+      "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
       "id": "416439",
