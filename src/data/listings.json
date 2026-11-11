@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-09T10:03:17.721Z",
+  "syncedAt": "2026-11-11T09:42:32.471Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -51,7 +51,7 @@
         "/src/assets/listings/452124/3645700.jpg"
       ],
       "firstSeen": "2026-11-02T09:46:18.922Z",
-      "lastSeen": "2026-11-09T10:03:17.721Z",
+      "lastSeen": "2026-11-11T09:42:32.471Z",
       "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
@@ -103,7 +103,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-11-09T10:03:17.721Z",
+      "lastSeen": "2026-11-11T09:42:32.471Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -172,11 +172,24 @@
         "district": "Malebná",
         "region": "Středočeský kraj"
       },
-      "status": "archived",
-      "images": [],
+      "status": "active",
+      "images": [
+        "/src/assets/listings/448026/3556218.jpg",
+        "/src/assets/listings/448026/3556219.jpg",
+        "/src/assets/listings/448026/3556220.jpg",
+        "/src/assets/listings/448026/3556221.jpg",
+        "/src/assets/listings/448026/3556223.jpg",
+        "/src/assets/listings/448026/3556222.jpg",
+        "/src/assets/listings/448026/3556226.jpg",
+        "/src/assets/listings/448026/3556224.jpg",
+        "/src/assets/listings/448026/3556225.jpg",
+        "/src/assets/listings/448026/3556227.jpg",
+        "/src/assets/listings/448026/3556228.jpg",
+        "/src/assets/listings/448026/3556229.jpg"
+      ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-11-02T09:46:18.922Z",
-      "statusChangedAt": "2026-11-09T10:03:17.721Z"
+      "lastSeen": "2026-11-11T09:42:32.471Z",
+      "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
       "id": "444819",
@@ -208,27 +221,11 @@
         "district": null,
         "region": "Hlavní město Praha"
       },
-      "status": "reserved",
-      "images": [
-        "/src/assets/listings/444819/3501243.jpg",
-        "/src/assets/listings/444819/3482640.jpg",
-        "/src/assets/listings/444819/3482642.jpg",
-        "/src/assets/listings/444819/3482643.jpg",
-        "/src/assets/listings/444819/3482641.jpg",
-        "/src/assets/listings/444819/3482644.jpg",
-        "/src/assets/listings/444819/3482645.jpg",
-        "/src/assets/listings/444819/3482646.jpg",
-        "/src/assets/listings/444819/3482647.jpg",
-        "/src/assets/listings/444819/3482648.jpg",
-        "/src/assets/listings/444819/3482649.jpg",
-        "/src/assets/listings/444819/3487899.jpg",
-        "/src/assets/listings/444819/3487900.jpg",
-        "/src/assets/listings/444819/3487902.jpg",
-        "/src/assets/listings/444819/3487901.jpg"
-      ],
+      "status": "archived",
+      "images": [],
       "firstSeen": "2026-07-28T05:29:30.570Z",
       "lastSeen": "2026-11-09T10:03:17.721Z",
-      "statusChangedAt": "2026-10-15T07:38:27.731Z"
+      "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
       "id": "444245",
@@ -306,7 +303,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-11-09T10:03:17.721Z",
+      "lastSeen": "2026-11-11T09:42:32.471Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -358,7 +355,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-09T10:03:17.721Z",
+      "lastSeen": "2026-11-11T09:42:32.471Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -481,7 +478,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-09T10:03:17.721Z",
+      "lastSeen": "2026-11-11T09:42:32.471Z",
       "statusChangedAt": "2026-10-14T07:53:16.454Z"
     },
     {
