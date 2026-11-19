@@ -1,7 +1,58 @@
 {
-  "syncedAt": "2026-11-17T10:57:03.330Z",
+  "syncedAt": "2026-11-19T10:35:43.261Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "453406",
+      "ref": "218-NP07572",
+      "slug": "pronajem-bytu-2-kk-v-osobnim-vlastnictvi-55-m2-praha-7-holesovice",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/453406/pronajem-bytu-2-kk-v-osobnim-vlastnictvi-55-m2-praha-7-holesovice",
+      "title": {
+        "cs": "Pronájem bytu 2+kk v osobním vlastnictví 55 m², Praha 7 - Holešovice",
+        "en": "Apartment for rent, 2+kk, 55 m², Prague 7 - Holešovice"
+      },
+      "description": {
+        "cs": "Pronájem bytu 2+kk v srdci Holešovic\n\nNabízíme k dlouhodobému pronájmu prostorný byt 2+kk o velikosti 55 m², situovaný do klidného vnitrobloku na adrese Jateční 15, hned u Holešovické tržnice. Tento byt se nachází ve 4. patře a nabízí ideální kombinaci pohodlného bydlení a výborné dostupnosti do centra města. V bytě se nachází prostorná ložnice 22m² s manželskou postelí a šatní skříní, obývací část má 18m² a je vybavena jídelním stolem a rozkládacím gaučem. Kuchyňský kout má zabudovanou myčku, plynový vařič a samostatně stojící lednici. V koupelně je pračka.\nMHD: Tramvajová zastávka Dělnická je vzdálena pouhých 5 minut chůze, stanice metra Vltavská (linka C) je dostupná do 10 minut pěšky. Do centra města se dostanete za 10–15 minut.\nV blízkosti se nachází supermarket Billa, drogerie, lékárna a další obchody pro každodenní potřeby. V okolí bytu naleznete řadu vyhlášených podniků a přes Štvanickou lávku se dostanete do Karlína za 5 min chůzí.\nV blízkosti se nachází divadlo Jatka78, známé svými inovativními představeními a kulturními akcemi. V docházkové vzdálenosti jsou Letenské sady a Stromovka, ideální místa pro procházky nebo sport.\nKauce je 50 000,-kč, nájemné je 25 000,-kč, zálohy na služby 1000,-kč/osoba ( každá další + 500kč), elektřina 1 200,-kč a plyn 2 000,-kč.\nByt je k dispozici ihned k nastěhování.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "en": "2+kk flat to rent in the heart of Holešovice\n\nWe are offering a spacious 2+kk flat measuring 55 m² for long-term let, situated in a quiet courtyard at Jateční 15, right next to the Holešovice Market. This flat is on the 4th floor and offers the ideal combination of comfortable living and excellent access to the city centre. The flat features a spacious 22 m² bedroom with a double bed and a wardrobe, whilst the 18 m² living area is fitted with a dining table and a sofa bed. The kitchenette has a built-in dishwasher, a gas hob and a freestanding fridge. There is a washing machine in the bathroom.\nPublic transport: The Dělnická tram stop is just a 5-minute walk away, whilst the Vltavská metro station (line C) is a 10-minute walk away. You can reach the city centre in 10–15 minutes.\nNearby you’ll find a Billa supermarket, a chemist’s, a pharmacy and other shops for everyday needs. There are a number of renowned venues in the neighbourhood, and you can reach Karlín in a 5-minute walk across the Štvanická footbridge.\nThe Jatka78 theatre, known for its innovative performances and cultural events, is nearby. Letenské sady and Stromovka are within walking distance, ideal spots for walks or sport.\nThe deposit is 50,000 CZK, the rent is 25,000 CZK, and the advance payment for utilities is 1,000 CZK per person (each additional person + 500 CZK), electricity is 1,200 CZK and gas is 2,000 CZK.\nThe flat is available for immediate occupancy.\nThe landlord reserves the right to select a tenant based on criteria of their choosing."
+      },
+      "offerType": "rent",
+      "propertyType": "apartment",
+      "disposition": "2+kk",
+      "price": {
+        "amount": 25000,
+        "currency": "CZK",
+        "period": "month",
+        "note": null
+      },
+      "areaM2": 55,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Praha 7 - Holešovice",
+        "district": null,
+        "region": "Hlavní město Praha"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/453406/3672915.jpg",
+        "/src/assets/listings/453406/3672917.jpg",
+        "/src/assets/listings/453406/3672916.jpg",
+        "/src/assets/listings/453406/3672923.jpg",
+        "/src/assets/listings/453406/3672924.jpg",
+        "/src/assets/listings/453406/3672918.jpg",
+        "/src/assets/listings/453406/3672921.jpg",
+        "/src/assets/listings/453406/3672925.jpg",
+        "/src/assets/listings/453406/3672920.jpg",
+        "/src/assets/listings/453406/3672919.jpg",
+        "/src/assets/listings/453406/3672926.jpg",
+        "/src/assets/listings/453406/3672922.jpg",
+        "/src/assets/listings/453406/3672928.jpg",
+        "/src/assets/listings/453406/3672927.jpg"
+      ],
+      "firstSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "statusChangedAt": "2026-11-19T10:35:43.261Z"
+    },
     {
       "id": "452124",
       "ref": "218-NP07524",
@@ -51,7 +102,7 @@
         "/src/assets/listings/452124/3645700.jpg"
       ],
       "firstSeen": "2026-11-02T09:46:18.922Z",
-      "lastSeen": "2026-11-17T10:57:03.330Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
       "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
@@ -103,7 +154,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-11-17T10:57:03.330Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -188,7 +239,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-11-17T10:57:03.330Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
       "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
@@ -303,7 +354,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-11-17T10:57:03.330Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -355,7 +406,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-17T10:57:03.330Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -478,7 +529,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-17T10:57:03.330Z",
+      "lastSeen": "2026-11-19T10:35:43.261Z",
       "statusChangedAt": "2026-10-14T07:53:16.454Z"
     },
     {
