@@ -1,7 +1,50 @@
 {
-  "syncedAt": "2026-11-19T10:35:43.261Z",
+  "syncedAt": "2026-11-20T10:17:07.329Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "453414",
+      "ref": "218-NP07574",
+      "slug": "pronajem-bytu-2-kk-v-osobnim-vlastnictvi-53-m2-horovice",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/453414/pronajem-bytu-2-kk-v-osobnim-vlastnictvi-53-m2-horovice",
+      "title": {
+        "cs": "Pronájem bytu 2+kk v osobním vlastnictví 53 m², Hořovice",
+        "en": "Apartment for rent, 2+kk, 53 m², Hořovice"
+      },
+      "description": {
+        "cs": "Příjemný byt 2+kk s předzahrádkou, sklepem a parkovacím stáním\n\nNabízíme Vám pronájem příjemného bytu 2+kk s užitnou plochou 53m², předzahrádkou 25m² a venkovním parkovacím stáním.\nByt je součástí rezidenčního projektu Bydlení Hořovice, který se nachází hned vedle nemocnice a má vše co vyžaduje moderní bydlení - kvalitní materiály, francouzská okna nebo nadstandardně velký sklep (5m²) hned naproti bytu. Byt se nachází v 1.NP a je orientovaný na JZ.\nProstorná kuchyňská linka je vybavena vestavnými spotřebiči (myčka, trouba, varná deska, mikrovlnná trouba, lednice). Ložnice stejně jako obývací pokoj má přímý vstup na předzahrádku.\nPraktická je i komora přímo v bytě.\nHořovice jsou příjemným městem k bydlení s veškerou občanskou vybaveností a službami. Výborné je i vlakové a autobusové spojení na Prahu i Plzeň nebo autem po D5. Nedaleko bytového domu je nemocnice, hezký zámecký park, dětské hřiště.\nHořovice se nachází v malebné krajině mezi CHKO Křivoklátsko a CHKO Brdy a nabízí široké sportovní vyžití.\nKauce je 35 000,- Kč, nájemné 19 000kč, poplatky za služby 4 326,-Kč/2os (každá další osoba + 500kč), elektřina bude převedena na nájemce. Druhé parkovací stání je možné pronajmout za dodatečných 1000,-kč/měsíčně.\nByt je k nastěhování od 1.2.2027. Moc doporučuji a ráda Vás provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "en": "A cosy 2+kk flat with a front garden, cellar and parking space\n\nWe are offering a cosy 2+kk flat for rent, with a usable area of 53m², a 25m² front garden and an outdoor parking space.\nThe flat is part of the Bydlení Hořovice residential development, situated right next to the hospital, and offers everything required for modern living – high-quality materials, French windows and an exceptionally spacious cellar (5m²) directly opposite the flat. The flat is situated on the ground floor and faces south-west.\nThe spacious fitted kitchen is equipped with built-in appliances (dishwasher, oven, hob, microwave and fridge). Both the bedroom and the living room have direct access to the front garden.\nThere is also a handy storage cupboard within the flat itself.\nHořovice is a pleasant town to live in, with all the necessary amenities and services. There are also excellent train and bus connections to Prague and Plzeň, as well as easy access by car via the D5 motorway. Near the apartment block, there is a hospital, a lovely castle park and a children’s playground.\nHořovice is situated in picturesque countryside between the Křivoklátsko and Brdy Protected Landscape Areas and offers a wide range of sporting activities.\nThe deposit is 35,000 CZK, the rent is 19,000 CZK, and service charges are 4,326 CZK for two people (each additional person + 500 CZK); the electricity meter will be transferred to the tenant’s name. A second parking space can be rented for an additional 1,000 CZK per month.\nThe flat is available from 1 February 2027. I highly recommend it and would be happy to show you round.\nThe landlord reserves the right to select a tenant based on criteria of their choosing."
+      },
+      "offerType": "rent",
+      "propertyType": "apartment",
+      "disposition": "2+kk",
+      "price": {
+        "amount": 19000,
+        "currency": "CZK",
+        "period": "month",
+        "note": null
+      },
+      "areaM2": 53,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Hořovice",
+        "district": "Beroun",
+        "region": "Středočeský kraj"
+      },
+      "status": "rented",
+      "images": [
+        "/src/assets/listings/453414/3673028.jpg",
+        "/src/assets/listings/453414/3673031.jpg",
+        "/src/assets/listings/453414/3673036.jpg",
+        "/src/assets/listings/453414/3673037.jpg",
+        "/src/assets/listings/453414/3673038.jpg",
+        "/src/assets/listings/453414/3673032.jpg"
+      ],
+      "firstSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "statusChangedAt": "2026-11-20T10:17:07.329Z"
+    },
     {
       "id": "453406",
       "ref": "218-NP07572",
@@ -50,7 +93,7 @@
         "/src/assets/listings/453406/3672927.jpg"
       ],
       "firstSeen": "2026-11-19T10:35:43.261Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
       "statusChangedAt": "2026-11-19T10:35:43.261Z"
     },
     {
@@ -102,7 +145,7 @@
         "/src/assets/listings/452124/3645700.jpg"
       ],
       "firstSeen": "2026-11-02T09:46:18.922Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
       "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
@@ -154,7 +197,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -239,7 +282,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
       "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
@@ -354,7 +397,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -406,7 +449,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
+      "lastSeen": "2026-11-20T10:17:07.329Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -499,7 +542,7 @@
       "propertyType": "land",
       "disposition": null,
       "price": {
-        "amount": 18000000,
+        "amount": null,
         "currency": "CZK",
         "period": "once",
         "note": null
@@ -511,7 +554,7 @@
         "district": "Beroun",
         "region": "Středočeský kraj"
       },
-      "status": "active",
+      "status": "reserved",
       "images": [
         "/src/assets/listings/425734/3057495.jpg",
         "/src/assets/listings/425734/3057498.jpg",
@@ -529,8 +572,8 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-19T10:35:43.261Z",
-      "statusChangedAt": "2026-10-14T07:53:16.454Z"
+      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "statusChangedAt": "2026-11-20T10:17:07.329Z"
     },
     {
       "id": "419828",
