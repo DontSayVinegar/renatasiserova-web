@@ -1,7 +1,50 @@
 {
-  "syncedAt": "2026-11-20T10:17:07.329Z",
+  "syncedAt": "2026-11-21T10:01:44.740Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "453611",
+      "ref": "218-NP07582",
+      "slug": "pronajem-bytu-1-kk-v-druzstevnim-vlastnictvi-24-m2-praha-10-zabehlice",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/453611/pronajem-bytu-1-kk-v-druzstevnim-vlastnictvi-24-m2-praha-10-zabehlice",
+      "title": {
+        "cs": "Pronájem bytu 1+kk v družstevním vlastnictví 24 m², Praha 10 - Záběhlice",
+        "en": "Apartment for rent, 1+kk, 24 m², Prague 10 - Záběhlice"
+      },
+      "description": {
+        "cs": "Pronájem zrekonstruovaného bytu 1kk\n\nNabízíme k pronájmu byt 1+kk s ideální orientací na jihozápad.\nInteriér navrhlo architektonické studio, které efektivně využilo prostor a zároveň vytvořilo útulnou atmosféru.\nV bytě se nachází kuchyň s varnou deskou, troubou a vestavnou ledničkou, v koupelně pak  pračka kombinovaná se sušičkou. Dále se v bytě nachází  šatní skříň s úložným prostorem a TV umístěnou na nástěnných skříňkách.\nDům je ve velmi dobrém stavu a zateplený. Dům má dva výtahy\nPřímo před domem je zastávka MHD „Centrum Zahradní město“ a pár kroků od domu je nákupní centrum se supermarketem Albert.\nV blízkosti se pak nachází nákupní centrum Hostivař i Hostivařský lesopark rozkládající se kolem potoka Botič.\nKauce je 30 000,-kč, měsíční nájem 15 000,-kč, zálohy na služby 1650,-Kč a elektřina bude převedena na nájemce. Byt je k nastěhování od 1.1.2027.\nRáda vás touto nemovitostí provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "en": "Refurbished 1+kk flat to let\n\nWe are offering a 1+kk flat for rent with an ideal south-west facing aspect.\nThe interior was designed by an architectural studio, which made effective use of the space whilst creating a cosy atmosphere.\nThe flat features a kitchen with a hob, oven and built-in fridge, whilst the bathroom has a washer-dryer. There is also a wardrobe with storage space and a TV mounted on wall units.\nThe building is in very good condition and is thermally insulated. It has two lifts.\nThe ‘Centrum Zahradní město’ public transport stop is right in front of the building, and a shopping centre with an Albert supermarket is just a few steps away.\nNearby, you’ll also find the Hostivař shopping centre and the Hostivař Forest Park, which stretches along the Botič stream.\nThe deposit is 30,000 CZK, the monthly rent is 15,000 CZK, service charges are 1,650 CZK, and the electricity meter will be transferred to the tenant’s name. The flat is available from 1 January 2027.\nI would be happy to show you around this property.\nThe landlord reserves the right to select a tenant based on criteria of their choosing."
+      },
+      "offerType": "rent",
+      "propertyType": "apartment",
+      "disposition": "1+kk",
+      "price": {
+        "amount": 15000,
+        "currency": "CZK",
+        "period": "month",
+        "note": null
+      },
+      "areaM2": 24,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Praha 10 - Záběhlice",
+        "district": "Jabloňová",
+        "region": "Hlavní město Praha"
+      },
+      "status": "rented",
+      "images": [
+        "/src/assets/listings/453611/3677380.jpg",
+        "/src/assets/listings/453611/3677381.jpg",
+        "/src/assets/listings/453611/3677382.jpg",
+        "/src/assets/listings/453611/3677383.jpg",
+        "/src/assets/listings/453611/3677384.jpg",
+        "/src/assets/listings/453611/3677385.jpg"
+      ],
+      "firstSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "statusChangedAt": "2026-11-21T10:01:44.740Z"
+    },
     {
       "id": "453414",
       "ref": "218-NP07574",
@@ -42,7 +85,7 @@
         "/src/assets/listings/453414/3673032.jpg"
       ],
       "firstSeen": "2026-11-20T10:17:07.329Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-11-20T10:17:07.329Z"
     },
     {
@@ -93,7 +136,7 @@
         "/src/assets/listings/453406/3672927.jpg"
       ],
       "firstSeen": "2026-11-19T10:35:43.261Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-11-19T10:35:43.261Z"
     },
     {
@@ -145,7 +188,7 @@
         "/src/assets/listings/452124/3645700.jpg"
       ],
       "firstSeen": "2026-11-02T09:46:18.922Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
@@ -197,7 +240,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -282,7 +325,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
@@ -397,7 +440,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -449,7 +492,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -572,7 +615,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-20T10:17:07.329Z",
+      "lastSeen": "2026-11-21T10:01:44.740Z",
       "statusChangedAt": "2026-11-20T10:17:07.329Z"
     },
     {
