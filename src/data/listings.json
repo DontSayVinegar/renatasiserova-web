@@ -1,7 +1,59 @@
 {
-  "syncedAt": "2026-11-21T10:01:44.740Z",
+  "syncedAt": "2026-11-24T12:47:21.919Z",
   "source": "remax-scrape",
   "listings": [
+    {
+      "id": "453779",
+      "ref": "218-NP07587",
+      "slug": "pronajem-bytu-2-kk-v-osobnim-vlastnictvi-60-m2-beroun",
+      "source": "remax-scrape",
+      "sourceUrl": "https://www.remax-czech.cz/reality/detail/453779/pronajem-bytu-2-kk-v-osobnim-vlastnictvi-60-m2-beroun",
+      "title": {
+        "cs": "Pronájem bytu 2+kk v osobním vlastnictví 60 m², Beroun",
+        "en": "Apartment for rent, 2+kk, 60 m², Beroun"
+      },
+      "description": {
+        "cs": "Byt 2+kk s balkónem a garážovým stáním v centru Berouna k pronájmu\n\nNenechte si ujít pronájem  bytu 2+kk s podlahovou plochou 60m², balkónem 6m², garážovým stáním v samém centru Berouna.\nByt je součástí rezidenčního projektu Berlita v ulici Na Parkáně a má vše co vyžaduje moderní bydlení - rekuperace vzduchu, venkovní žaluzie, francouzská okna, komoru.\nPříjemná je i orientace bytu na jihozápad.\nByt se nachází v tom nejlepším místě Berouna, jaké si jen můžete přát. Husovo náměstí 2 min chůzí, autobusová zastávka U Černého koně 5 min chůzí (přímé spoje mezi Prahou a Berounem), vlakové nádraží 7 min chůzí. Berounka s Litavkou a se stezkou (pěší, cyklo) přímo pod okny. V blízkém okolí poliklinika Medicentrum, ZŠ, gymnázium, pošta, obecní úřad, prostě vše, co potřebujete.\nByt je vybaven kuchyňskou linkou s vestavnými spotřebiči (myčka, trouba, varná deska, mikrovlnná trouba, lednice).\nByt je k dispozici ihned.\nMěsíční cena pronájmu je 21 000,- Kč + zálohy za domovní služby jsou 2 800,-Kč.\nElektřina se převede na nájemce. Vratná kauce je 42 000,- Kč.\nRáda vás touto úžasnou nemovitostí provedu.\nPronajímající si vyhrazuje právo vybrat nájemce na základě jím zvolených kritérií.",
+        "en": "2+kk flat with a balcony and garage space in the centre of Beroun to let\n\nDon’t miss out on the chance to rent a 2+kk flat with a floor area of 60m², a 6m² balcony and a garage space right in the centre of Beroun.\nThe flat is part of the Berlita residential development on Na Parkáně Street and has everything required for modern living – heat recovery ventilation, external blinds, French windows and a storage cupboard.\nThe flat’s south-west facing aspect is also a pleasant feature.\nThe flat is situated in the very best location in Beroun you could wish for. Husovo náměstí is a 2-minute walk away, the ‘U Černého koně’ bus stop is a 5-minute walk away (with direct services between Prague and Beroun), and the railway station is a 7-minute walk away. The Berounka and Litavka rivers, along with a footpath and cycle path, run right beneath the windows. In the immediate vicinity you’ll find the Medicentrum health centre, a primary school, a grammar school, a post office and the town hall – simply everything you need.\nThe flat is fitted with a kitchen unit with built-in appliances (dishwasher, oven, hob, microwave, fridge).\nThe flat is available immediately.\nThe monthly rent is 21,000 CZK + service charges of 2,800 CZK.\nThe electricity supply will be transferred to the tenant. The refundable deposit is 42,000 CZK.\nI’d be delighted to show you round this wonderful property.\nThe landlord reserves the right to select the tenant based on criteria of their choosing."
+      },
+      "offerType": "rent",
+      "propertyType": "apartment",
+      "disposition": "2+kk",
+      "price": {
+        "amount": 21000,
+        "currency": "CZK",
+        "period": "month",
+        "note": null
+      },
+      "areaM2": 60,
+      "landAreaM2": null,
+      "location": {
+        "municipality": "Beroun",
+        "district": null,
+        "region": "Středočeský kraj"
+      },
+      "status": "active",
+      "images": [
+        "/src/assets/listings/453779/3680679.jpg",
+        "/src/assets/listings/453779/3680680.jpg",
+        "/src/assets/listings/453779/3680681.jpg",
+        "/src/assets/listings/453779/3680682.jpg",
+        "/src/assets/listings/453779/3680683.jpg",
+        "/src/assets/listings/453779/3680684.jpg",
+        "/src/assets/listings/453779/3680685.jpg",
+        "/src/assets/listings/453779/3680686.jpg",
+        "/src/assets/listings/453779/3680687.jpg",
+        "/src/assets/listings/453779/3680688.jpg",
+        "/src/assets/listings/453779/3680689.jpg",
+        "/src/assets/listings/453779/3680690.jpg",
+        "/src/assets/listings/453779/3680691.jpg",
+        "/src/assets/listings/453779/3680692.jpg",
+        "/src/assets/listings/453779/3680693.jpg"
+      ],
+      "firstSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "statusChangedAt": "2026-11-24T12:47:21.919Z"
+    },
     {
       "id": "453611",
       "ref": "218-NP07582",
@@ -32,18 +84,22 @@
         "district": "Jabloňová",
         "region": "Hlavní město Praha"
       },
-      "status": "rented",
+      "status": "active",
       "images": [
         "/src/assets/listings/453611/3677380.jpg",
         "/src/assets/listings/453611/3677381.jpg",
         "/src/assets/listings/453611/3677382.jpg",
         "/src/assets/listings/453611/3677383.jpg",
         "/src/assets/listings/453611/3677384.jpg",
-        "/src/assets/listings/453611/3677385.jpg"
+        "/src/assets/listings/453611/3677385.jpg",
+        "/src/assets/listings/453611/3677386.jpg",
+        "/src/assets/listings/453611/3677387.jpg",
+        "/src/assets/listings/453611/3677388.jpg",
+        "/src/assets/listings/453611/3677389.jpg"
       ],
       "firstSeen": "2026-11-21T10:01:44.740Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
-      "statusChangedAt": "2026-11-21T10:01:44.740Z"
+      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "statusChangedAt": "2026-11-24T12:47:21.919Z"
     },
     {
       "id": "453414",
@@ -75,18 +131,27 @@
         "district": "Beroun",
         "region": "Středočeský kraj"
       },
-      "status": "rented",
+      "status": "active",
       "images": [
         "/src/assets/listings/453414/3673028.jpg",
         "/src/assets/listings/453414/3673031.jpg",
         "/src/assets/listings/453414/3673036.jpg",
         "/src/assets/listings/453414/3673037.jpg",
         "/src/assets/listings/453414/3673038.jpg",
-        "/src/assets/listings/453414/3673032.jpg"
+        "/src/assets/listings/453414/3673032.jpg",
+        "/src/assets/listings/453414/3673029.jpg",
+        "/src/assets/listings/453414/3673039.jpg",
+        "/src/assets/listings/453414/3673040.jpg",
+        "/src/assets/listings/453414/3673042.jpg",
+        "/src/assets/listings/453414/3673041.jpg",
+        "/src/assets/listings/453414/3673043.jpg",
+        "/src/assets/listings/453414/3673044.jpg",
+        "/src/assets/listings/453414/3673045.jpg",
+        "/src/assets/listings/453414/3673033.jpg"
       ],
       "firstSeen": "2026-11-20T10:17:07.329Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
-      "statusChangedAt": "2026-11-20T10:17:07.329Z"
+      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "statusChangedAt": "2026-11-24T12:47:21.919Z"
     },
     {
       "id": "453406",
@@ -136,7 +201,7 @@
         "/src/assets/listings/453406/3672927.jpg"
       ],
       "firstSeen": "2026-11-19T10:35:43.261Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-11-19T10:35:43.261Z"
     },
     {
@@ -188,7 +253,7 @@
         "/src/assets/listings/452124/3645700.jpg"
       ],
       "firstSeen": "2026-11-02T09:46:18.922Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
@@ -240,7 +305,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -325,7 +390,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
@@ -440,7 +505,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -492,7 +557,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -615,7 +680,7 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-21T10:01:44.740Z",
+      "lastSeen": "2026-11-24T12:47:21.919Z",
       "statusChangedAt": "2026-11-20T10:17:07.329Z"
     },
     {
