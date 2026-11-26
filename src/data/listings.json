@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-24T12:47:21.919Z",
+  "syncedAt": "2026-11-26T13:28:19.369Z",
   "source": "remax-scrape",
   "listings": [
     {
@@ -51,7 +51,7 @@
         "/src/assets/listings/453779/3680693.jpg"
       ],
       "firstSeen": "2026-11-24T12:47:21.919Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-11-24T12:47:21.919Z"
     },
     {
@@ -98,7 +98,7 @@
         "/src/assets/listings/453611/3677389.jpg"
       ],
       "firstSeen": "2026-11-21T10:01:44.740Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-11-24T12:47:21.919Z"
     },
     {
@@ -150,7 +150,7 @@
         "/src/assets/listings/453414/3673033.jpg"
       ],
       "firstSeen": "2026-11-20T10:17:07.329Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-11-24T12:47:21.919Z"
     },
     {
@@ -201,7 +201,7 @@
         "/src/assets/listings/453406/3672927.jpg"
       ],
       "firstSeen": "2026-11-19T10:35:43.261Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-11-19T10:35:43.261Z"
     },
     {
@@ -253,7 +253,7 @@
         "/src/assets/listings/452124/3645700.jpg"
       ],
       "firstSeen": "2026-11-02T09:46:18.922Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-11-02T09:46:18.922Z"
     },
     {
@@ -305,7 +305,7 @@
         "/src/assets/listings/452037/3643506.jpg"
       ],
       "firstSeen": "2026-10-31T08:39:12.459Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-10-31T08:39:12.459Z"
     },
     {
@@ -390,7 +390,7 @@
         "/src/assets/listings/448026/3556229.jpg"
       ],
       "firstSeen": "2026-09-11T07:24:32.597Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-11-11T09:42:32.471Z"
     },
     {
@@ -505,7 +505,7 @@
         "/src/assets/listings/444172/3466234.jpg"
       ],
       "firstSeen": "2026-07-17T05:26:38.775Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-09-17T07:54:09.829Z"
     },
     {
@@ -557,7 +557,7 @@
         "/src/assets/listings/441842/3411879.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
+      "lastSeen": "2026-11-26T13:28:19.369Z",
       "statusChangedAt": "2026-10-05T09:25:44.648Z"
     },
     {
@@ -662,7 +662,7 @@
         "district": "Beroun",
         "region": "Středočeský kraj"
       },
-      "status": "reserved",
+      "status": "active",
       "images": [
         "/src/assets/listings/425734/3057495.jpg",
         "/src/assets/listings/425734/3057498.jpg",
@@ -680,8 +680,8 @@
         "/src/assets/listings/425734/3057505.jpg"
       ],
       "firstSeen": "2026-07-06T12:40:43.329Z",
-      "lastSeen": "2026-11-24T12:47:21.919Z",
-      "statusChangedAt": "2026-11-20T10:17:07.329Z"
+      "lastSeen": "2026-11-26T13:28:19.369Z",
+      "statusChangedAt": "2026-11-26T13:28:19.369Z"
     },
     {
       "id": "419828",
