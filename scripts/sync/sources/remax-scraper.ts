@@ -176,7 +176,11 @@ export function parseDetail(html: string): DetailData {
     descriptionCs,
     params,
     imageUrls,
-    tags: $('[class*="tags__item"]')
+    // Only this listing's own badges. The page also renders a "similar
+    // properties" block with OTHER listings and their badges — a page-wide
+    // selector once marked an active listing as reserved because a similar
+    // plot elsewhere was.
+    tags: $('.pd-base-info [class*="tags__item"]')
       .map((_, t) => $(t).text().trim())
       .get(),
     priceText: $('.pd-header__price').text().replace(/\s+/g, ' ').trim(),

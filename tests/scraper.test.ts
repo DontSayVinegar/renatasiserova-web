@@ -79,6 +79,14 @@ describe('parseDetail', () => {
   it('sees the sold tag on the sold detail page', () => {
     expect(sold.tags).toContain('Prodáno');
   });
+
+  it("ignores badges of other listings in the 'similar properties' block", () => {
+    // Lážovice plot, saved 2026-11-26: itself active, but the page lists a
+    // reserved plot from another agent under "similar properties".
+    const html = fixture('detail-similar-reserved.html');
+    expect(html).toContain('tags__item--reserved');
+    expect(parseDetail(html).tags).toEqual(['Exkluzivně']);
+  });
 });
 
 describe('parseReviews', () => {
@@ -177,6 +185,19 @@ describe('normalize', () => {
     expect(ln.location.district).toBe('Beroun');
     expect(ln.location.region).toBe('Středočeský kraj');
     expect(ln.title.en).toBe('Land plot for sale, 4,000 m², Lážovice');
+  });
+
+  it('keeps a hidden-price listing active when only a similar listing is reserved', () => {
+    const d = parseDetail(fixture('detail-similar-reserved.html'));
+    const hn = normalize({
+      ...raw,
+      titleCs: 'Prodej pozemku 4000 m², Lážovice',
+      priceText: d.priceText,
+      tags: ['Exkluzivně', ...d.tags],
+      params: d.params,
+    });
+    expect(hn.status).toBe('active');
+    expect(hn.price.amount).toBeNull();
   });
 });
 
